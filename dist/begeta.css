@@ -1,0 +1,24 @@
+/* Nesting
+When writing HTML you've probably noticed that it has a clear nested and visual hierarchy. CSS, on the other hand, doesn't.
+
+Sass will let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. 
+Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice. */
+* {
+  box-sizing: border-box; }
+
+/* Variables
+
+Think of variables as a way to store information that you want to reuse throughout your stylesheet. 
+You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. 
+Sass uses the $ symbol to make something a variable. */
+/* 
+Mixins
+
+Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist. 
+A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. 
+You can even pass in values to make your mixin more flexible. A good use of a mixin is for vendor prefixes. */
+.bg-cl-primary {
+  background-color: #f00 !important; }
+
+.bg-cl-primary:hover {
+  background-color: #0f0 !important; }

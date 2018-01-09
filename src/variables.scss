@@ -1,0 +1,16 @@
+/* Variables
+
+Think of variables as a way to store information that you want to reuse throughout your stylesheet. 
+You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. 
+Sass uses the $ symbol to make something a variable. */
+
+// http://sass-lang.com/guide : Topic Variables
+
+$color-primary: #f00;
+$color-primary-hover: #0f0;
+$color-value: (
+  'primary': $color-primary
+);
+$color-value-hover: (
+  'primary': $color-primary-hover
+);

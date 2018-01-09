@@ -1,0 +1,14 @@
+/* 
+Mixins
+
+Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist. 
+A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. 
+You can even pass in values to make your mixin more flexible. A good use of a mixin is for vendor prefixes. */
+
+// http://sass-lang.com/guide : Topic Mixins
+
+@mixin hover {
+  &:hover {
+    @content;
+  }
+}
