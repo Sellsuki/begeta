@@ -1,19 +1,6 @@
-@each $key, $value in $pd-value {
+@each $key, $value in $pixel-value {
   .pd-#{$key} { padding: #{$value}; }
-};
-
-@each $key, $value in $pd-value {
   .pd-#{$key}-top { padding-top: #{$value}; }
-};
-
-@each $key, $value in $pd-value {
   .pd-#{$key}-right { padding-right: #{$value}; }
-};
-
-@each $key, $value in $pd-value {
-  .pd-#{$key}-bottom { padding-bottom: #{$value}; }
-};
-
-@each $key, $value in $pd-value {
-  .pd-#{$key}-left { padding-left: #{$value}; }
+  .pd-#{$key}-left { padding-left: #{$value}; }  
 };
