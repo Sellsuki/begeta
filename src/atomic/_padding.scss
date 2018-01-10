@@ -1,0 +1,6 @@
+@for $i from 1 through 100 {
+  .pd-#{$i}px { padding: #{$i}px; }
+  .pd-#{$i}px-top { padding-top: #{$i}px; }
+  .pd-#{$i}px-right { padding-right: #{$i}px; }
+  .pd-#{$i}px-left { padding-left: #{$i}px; }  
+};
