@@ -11,12 +11,6 @@ Be aware that overly nested rules will result in over-qualified CSS that could p
 Think of variables as a way to store information that you want to reuse throughout your stylesheet. 
 You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. 
 Sass uses the $ symbol to make something a variable. */
-/*====================================
-  button size
-======================================*/
-/*====================================
-  pixel size
-======================================*/
 /* 
 Mixins
 
@@ -1228,18 +1222,3 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 
 .pd-100px-left {
   padding-left: 100px; }
-
-.btn-s {
-  width: 28px;
-  padding-left: 12px;
-  padding-right: 12px; }
-
-.btn-m {
-  width: 36px;
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.btn-ll {
-  width: 50px;
-  padding-left: 30px;
-  padding-right: 30px; }
