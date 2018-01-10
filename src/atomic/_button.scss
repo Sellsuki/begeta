@@ -1,18 +1,18 @@
-@each $key, $value in $btn-value {
-  .btn-#{$key} {
-    @if ($key == 's') { // visualizing layout internals
+@each $value in s, m, l {
+  .btn-#{$value} {
+    @if ($value == 's') { // visualizing layout internals
       width: 28px;
       padding-left: 12px;
       padding-right: 12px;
     }
 
-    @if ($key == 'm') { // visualizing layout internals
+    @if ($value == 'm') { // visualizing layout internals
       width: 36px;
       padding-left: 30px;
       padding-right: 30px;
     }
 
-    @if ($key == 'l') { // visualizing layout internals
+    @if ($value == 'l') { // visualizing layout internals
       width: 50px;
       padding-left: 30px;
       padding-right: 30px;

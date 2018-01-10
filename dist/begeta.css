@@ -749,6 +749,126 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .pd-60px-left {
   padding-left: 60px; }
 
+.pd-61px {
+  padding: 61px; }
+
+.pd-61px-top {
+  padding-top: 61px; }
+
+.pd-61px-right {
+  padding-right: 61px; }
+
+.pd-61px-left {
+  padding-left: 61px; }
+
+.pd-62px {
+  padding: 62px; }
+
+.pd-62px-top {
+  padding-top: 62px; }
+
+.pd-62px-right {
+  padding-right: 62px; }
+
+.pd-62px-left {
+  padding-left: 62px; }
+
+.pd-63px {
+  padding: 63px; }
+
+.pd-63px-top {
+  padding-top: 63px; }
+
+.pd-63px-right {
+  padding-right: 63px; }
+
+.pd-63px-left {
+  padding-left: 63px; }
+
+.pd-64px {
+  padding: 64px; }
+
+.pd-64px-top {
+  padding-top: 64px; }
+
+.pd-64px-right {
+  padding-right: 64px; }
+
+.pd-64px-left {
+  padding-left: 64px; }
+
+.pd-65px {
+  padding: 65px; }
+
+.pd-65px-top {
+  padding-top: 65px; }
+
+.pd-65px-right {
+  padding-right: 65px; }
+
+.pd-65px-left {
+  padding-left: 65px; }
+
+.pd-66px {
+  padding: 66px; }
+
+.pd-66px-top {
+  padding-top: 66px; }
+
+.pd-66px-right {
+  padding-right: 66px; }
+
+.pd-66px-left {
+  padding-left: 66px; }
+
+.pd-67px {
+  padding: 67px; }
+
+.pd-67px-top {
+  padding-top: 67px; }
+
+.pd-67px-right {
+  padding-right: 67px; }
+
+.pd-67px-left {
+  padding-left: 67px; }
+
+.pd-68px {
+  padding: 68px; }
+
+.pd-68px-top {
+  padding-top: 68px; }
+
+.pd-68px-right {
+  padding-right: 68px; }
+
+.pd-68px-left {
+  padding-left: 68px; }
+
+.pd-69px {
+  padding: 69px; }
+
+.pd-69px-top {
+  padding-top: 69px; }
+
+.pd-69px-right {
+  padding-right: 69px; }
+
+.pd-69px-left {
+  padding-left: 69px; }
+
+.pd-70px {
+  padding: 70px; }
+
+.pd-70px-top {
+  padding-top: 70px; }
+
+.pd-70px-right {
+  padding-right: 70px; }
+
+.pd-70px-left {
+  padding-left: 70px; }
+
 .pd-71px {
   padding: 71px; }
 
@@ -868,6 +988,126 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 
 .pd-80px-left {
   padding-left: 80px; }
+
+.pd-81px {
+  padding: 81px; }
+
+.pd-81px-top {
+  padding-top: 81px; }
+
+.pd-81px-right {
+  padding-right: 81px; }
+
+.pd-81px-left {
+  padding-left: 81px; }
+
+.pd-82px {
+  padding: 82px; }
+
+.pd-82px-top {
+  padding-top: 82px; }
+
+.pd-82px-right {
+  padding-right: 82px; }
+
+.pd-82px-left {
+  padding-left: 82px; }
+
+.pd-83px {
+  padding: 83px; }
+
+.pd-83px-top {
+  padding-top: 83px; }
+
+.pd-83px-right {
+  padding-right: 83px; }
+
+.pd-83px-left {
+  padding-left: 83px; }
+
+.pd-84px {
+  padding: 84px; }
+
+.pd-84px-top {
+  padding-top: 84px; }
+
+.pd-84px-right {
+  padding-right: 84px; }
+
+.pd-84px-left {
+  padding-left: 84px; }
+
+.pd-85px {
+  padding: 85px; }
+
+.pd-85px-top {
+  padding-top: 85px; }
+
+.pd-85px-right {
+  padding-right: 85px; }
+
+.pd-85px-left {
+  padding-left: 85px; }
+
+.pd-86px {
+  padding: 86px; }
+
+.pd-86px-top {
+  padding-top: 86px; }
+
+.pd-86px-right {
+  padding-right: 86px; }
+
+.pd-86px-left {
+  padding-left: 86px; }
+
+.pd-87px {
+  padding: 87px; }
+
+.pd-87px-top {
+  padding-top: 87px; }
+
+.pd-87px-right {
+  padding-right: 87px; }
+
+.pd-87px-left {
+  padding-left: 87px; }
+
+.pd-88px {
+  padding: 88px; }
+
+.pd-88px-top {
+  padding-top: 88px; }
+
+.pd-88px-right {
+  padding-right: 88px; }
+
+.pd-88px-left {
+  padding-left: 88px; }
+
+.pd-89px {
+  padding: 89px; }
+
+.pd-89px-top {
+  padding-top: 89px; }
+
+.pd-89px-right {
+  padding-right: 89px; }
+
+.pd-89px-left {
+  padding-left: 89px; }
+
+.pd-90px {
+  padding: 90px; }
+
+.pd-90px-top {
+  padding-top: 90px; }
+
+.pd-90px-right {
+  padding-right: 90px; }
+
+.pd-90px-left {
+  padding-left: 90px; }
 
 .pd-91px {
   padding: 91px; }
@@ -999,7 +1239,7 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
   padding-left: 30px;
   padding-right: 30px; }
 
-.btn-l {
+.btn-ll {
   width: 50px;
   padding-left: 30px;
   padding-right: 30px; }
