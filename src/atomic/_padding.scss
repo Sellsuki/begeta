@@ -1,6 +1,7 @@
 @for $i from 1 through 100 {
-  .pd-#{$i}px { padding: #{$i}px; }
-  .pd-#{$i}px-top { padding-top: #{$i}px; }
-  .pd-#{$i}px-right { padding-right: #{$i}px; }
-  .pd-#{$i}px-left { padding-left: #{$i}px; }  
+  .pd-#{$i}px { padding: #{$i}px !important; }
+  .pd-#{$i}px-top { padding-top: #{$i}px !important; }
+  .pd-#{$i}px-right { padding-right: #{$i}px !important; }
+  .pd-#{$i}px-left { padding-left: #{$i}px !important; }
+  .pd-#{$i}px-bottom { padding-bottom: #{$i}px !important; }
 };

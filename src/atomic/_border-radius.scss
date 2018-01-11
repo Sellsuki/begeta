@@ -1,0 +1,7 @@
+@for $i from 1 through 100 {
+  .bdrd-#{$i}px    { border-radius: #{$i}px !important; }
+  .bd-t-l-rd-#{$i}px  { border-top-left-radius: #{$i}px !important; }
+  .bd-t-r-rd-#{$i}px  { border-top-right-radius: #{$i}px !important; }
+  .bd-bt-l-rd-#{$i}px { border-bottom-left-radius: #{$i}px !important; }
+  .bd-bt-r-rd-#{$i}px { border-bottom-right-radius: #{$i}px !important; }
+};
