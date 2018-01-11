@@ -1,6 +1,9 @@
 @for $i from 1 through 100 {
   .mg-#{$i}px { margin: #{$i}px; }
   .mg-#{$i}px-top { margin-top: #{$i}px; }
+  .mg-#{$i}px-bottom { margin-bottom: #{$i}px; }
   .mg-#{$i}px-right { margin-right: #{$i}px; }
   .mg-#{$i}px-left { margin-left: #{$i}px; }  
+  .mg-#{$i}px-vertical { margin-top: #{$i}px; margin-bottom: #{$i}px; }
+  .mg-#{$i}px-horizontal { margin-left: #{$i}px; margin-right: #{$i}px; }
 };

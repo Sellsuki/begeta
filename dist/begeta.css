@@ -1229,11 +1229,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-1px-top {
   margin-top: 1px; }
 
+.mg-1px-bottom {
+  margin-bottom: 1px; }
+
 .mg-1px-right {
   margin-right: 1px; }
 
 .mg-1px-left {
   margin-left: 1px; }
+
+.mg-1px-vertical {
+  margin-top: 1px;
+  margin-bottom: 1px; }
+
+.mg-1px-horizontal {
+  margin-left: 1px;
+  margin-right: 1px; }
 
 .mg-2px {
   margin: 2px; }
@@ -1241,11 +1252,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-2px-top {
   margin-top: 2px; }
 
+.mg-2px-bottom {
+  margin-bottom: 2px; }
+
 .mg-2px-right {
   margin-right: 2px; }
 
 .mg-2px-left {
   margin-left: 2px; }
+
+.mg-2px-vertical {
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+.mg-2px-horizontal {
+  margin-left: 2px;
+  margin-right: 2px; }
 
 .mg-3px {
   margin: 3px; }
@@ -1253,11 +1275,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-3px-top {
   margin-top: 3px; }
 
+.mg-3px-bottom {
+  margin-bottom: 3px; }
+
 .mg-3px-right {
   margin-right: 3px; }
 
 .mg-3px-left {
   margin-left: 3px; }
+
+.mg-3px-vertical {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+
+.mg-3px-horizontal {
+  margin-left: 3px;
+  margin-right: 3px; }
 
 .mg-4px {
   margin: 4px; }
@@ -1265,11 +1298,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-4px-top {
   margin-top: 4px; }
 
+.mg-4px-bottom {
+  margin-bottom: 4px; }
+
 .mg-4px-right {
   margin-right: 4px; }
 
 .mg-4px-left {
   margin-left: 4px; }
+
+.mg-4px-vertical {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+.mg-4px-horizontal {
+  margin-left: 4px;
+  margin-right: 4px; }
 
 .mg-5px {
   margin: 5px; }
@@ -1277,11 +1321,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-5px-top {
   margin-top: 5px; }
 
+.mg-5px-bottom {
+  margin-bottom: 5px; }
+
 .mg-5px-right {
   margin-right: 5px; }
 
 .mg-5px-left {
   margin-left: 5px; }
+
+.mg-5px-vertical {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.mg-5px-horizontal {
+  margin-left: 5px;
+  margin-right: 5px; }
 
 .mg-6px {
   margin: 6px; }
@@ -1289,11 +1344,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-6px-top {
   margin-top: 6px; }
 
+.mg-6px-bottom {
+  margin-bottom: 6px; }
+
 .mg-6px-right {
   margin-right: 6px; }
 
 .mg-6px-left {
   margin-left: 6px; }
+
+.mg-6px-vertical {
+  margin-top: 6px;
+  margin-bottom: 6px; }
+
+.mg-6px-horizontal {
+  margin-left: 6px;
+  margin-right: 6px; }
 
 .mg-7px {
   margin: 7px; }
@@ -1301,11 +1367,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-7px-top {
   margin-top: 7px; }
 
+.mg-7px-bottom {
+  margin-bottom: 7px; }
+
 .mg-7px-right {
   margin-right: 7px; }
 
 .mg-7px-left {
   margin-left: 7px; }
+
+.mg-7px-vertical {
+  margin-top: 7px;
+  margin-bottom: 7px; }
+
+.mg-7px-horizontal {
+  margin-left: 7px;
+  margin-right: 7px; }
 
 .mg-8px {
   margin: 8px; }
@@ -1313,11 +1390,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-8px-top {
   margin-top: 8px; }
 
+.mg-8px-bottom {
+  margin-bottom: 8px; }
+
 .mg-8px-right {
   margin-right: 8px; }
 
 .mg-8px-left {
   margin-left: 8px; }
+
+.mg-8px-vertical {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+
+.mg-8px-horizontal {
+  margin-left: 8px;
+  margin-right: 8px; }
 
 .mg-9px {
   margin: 9px; }
@@ -1325,11 +1413,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-9px-top {
   margin-top: 9px; }
 
+.mg-9px-bottom {
+  margin-bottom: 9px; }
+
 .mg-9px-right {
   margin-right: 9px; }
 
 .mg-9px-left {
   margin-left: 9px; }
+
+.mg-9px-vertical {
+  margin-top: 9px;
+  margin-bottom: 9px; }
+
+.mg-9px-horizontal {
+  margin-left: 9px;
+  margin-right: 9px; }
 
 .mg-10px {
   margin: 10px; }
@@ -1337,11 +1436,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-10px-top {
   margin-top: 10px; }
 
+.mg-10px-bottom {
+  margin-bottom: 10px; }
+
 .mg-10px-right {
   margin-right: 10px; }
 
 .mg-10px-left {
   margin-left: 10px; }
+
+.mg-10px-vertical {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.mg-10px-horizontal {
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .mg-11px {
   margin: 11px; }
@@ -1349,11 +1459,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-11px-top {
   margin-top: 11px; }
 
+.mg-11px-bottom {
+  margin-bottom: 11px; }
+
 .mg-11px-right {
   margin-right: 11px; }
 
 .mg-11px-left {
   margin-left: 11px; }
+
+.mg-11px-vertical {
+  margin-top: 11px;
+  margin-bottom: 11px; }
+
+.mg-11px-horizontal {
+  margin-left: 11px;
+  margin-right: 11px; }
 
 .mg-12px {
   margin: 12px; }
@@ -1361,11 +1482,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-12px-top {
   margin-top: 12px; }
 
+.mg-12px-bottom {
+  margin-bottom: 12px; }
+
 .mg-12px-right {
   margin-right: 12px; }
 
 .mg-12px-left {
   margin-left: 12px; }
+
+.mg-12px-vertical {
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
+.mg-12px-horizontal {
+  margin-left: 12px;
+  margin-right: 12px; }
 
 .mg-13px {
   margin: 13px; }
@@ -1373,11 +1505,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-13px-top {
   margin-top: 13px; }
 
+.mg-13px-bottom {
+  margin-bottom: 13px; }
+
 .mg-13px-right {
   margin-right: 13px; }
 
 .mg-13px-left {
   margin-left: 13px; }
+
+.mg-13px-vertical {
+  margin-top: 13px;
+  margin-bottom: 13px; }
+
+.mg-13px-horizontal {
+  margin-left: 13px;
+  margin-right: 13px; }
 
 .mg-14px {
   margin: 14px; }
@@ -1385,11 +1528,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-14px-top {
   margin-top: 14px; }
 
+.mg-14px-bottom {
+  margin-bottom: 14px; }
+
 .mg-14px-right {
   margin-right: 14px; }
 
 .mg-14px-left {
   margin-left: 14px; }
+
+.mg-14px-vertical {
+  margin-top: 14px;
+  margin-bottom: 14px; }
+
+.mg-14px-horizontal {
+  margin-left: 14px;
+  margin-right: 14px; }
 
 .mg-15px {
   margin: 15px; }
@@ -1397,11 +1551,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-15px-top {
   margin-top: 15px; }
 
+.mg-15px-bottom {
+  margin-bottom: 15px; }
+
 .mg-15px-right {
   margin-right: 15px; }
 
 .mg-15px-left {
   margin-left: 15px; }
+
+.mg-15px-vertical {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.mg-15px-horizontal {
+  margin-left: 15px;
+  margin-right: 15px; }
 
 .mg-16px {
   margin: 16px; }
@@ -1409,11 +1574,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-16px-top {
   margin-top: 16px; }
 
+.mg-16px-bottom {
+  margin-bottom: 16px; }
+
 .mg-16px-right {
   margin-right: 16px; }
 
 .mg-16px-left {
   margin-left: 16px; }
+
+.mg-16px-vertical {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+.mg-16px-horizontal {
+  margin-left: 16px;
+  margin-right: 16px; }
 
 .mg-17px {
   margin: 17px; }
@@ -1421,11 +1597,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-17px-top {
   margin-top: 17px; }
 
+.mg-17px-bottom {
+  margin-bottom: 17px; }
+
 .mg-17px-right {
   margin-right: 17px; }
 
 .mg-17px-left {
   margin-left: 17px; }
+
+.mg-17px-vertical {
+  margin-top: 17px;
+  margin-bottom: 17px; }
+
+.mg-17px-horizontal {
+  margin-left: 17px;
+  margin-right: 17px; }
 
 .mg-18px {
   margin: 18px; }
@@ -1433,11 +1620,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-18px-top {
   margin-top: 18px; }
 
+.mg-18px-bottom {
+  margin-bottom: 18px; }
+
 .mg-18px-right {
   margin-right: 18px; }
 
 .mg-18px-left {
   margin-left: 18px; }
+
+.mg-18px-vertical {
+  margin-top: 18px;
+  margin-bottom: 18px; }
+
+.mg-18px-horizontal {
+  margin-left: 18px;
+  margin-right: 18px; }
 
 .mg-19px {
   margin: 19px; }
@@ -1445,11 +1643,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-19px-top {
   margin-top: 19px; }
 
+.mg-19px-bottom {
+  margin-bottom: 19px; }
+
 .mg-19px-right {
   margin-right: 19px; }
 
 .mg-19px-left {
   margin-left: 19px; }
+
+.mg-19px-vertical {
+  margin-top: 19px;
+  margin-bottom: 19px; }
+
+.mg-19px-horizontal {
+  margin-left: 19px;
+  margin-right: 19px; }
 
 .mg-20px {
   margin: 20px; }
@@ -1457,11 +1666,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-20px-top {
   margin-top: 20px; }
 
+.mg-20px-bottom {
+  margin-bottom: 20px; }
+
 .mg-20px-right {
   margin-right: 20px; }
 
 .mg-20px-left {
   margin-left: 20px; }
+
+.mg-20px-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mg-20px-horizontal {
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .mg-21px {
   margin: 21px; }
@@ -1469,11 +1689,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-21px-top {
   margin-top: 21px; }
 
+.mg-21px-bottom {
+  margin-bottom: 21px; }
+
 .mg-21px-right {
   margin-right: 21px; }
 
 .mg-21px-left {
   margin-left: 21px; }
+
+.mg-21px-vertical {
+  margin-top: 21px;
+  margin-bottom: 21px; }
+
+.mg-21px-horizontal {
+  margin-left: 21px;
+  margin-right: 21px; }
 
 .mg-22px {
   margin: 22px; }
@@ -1481,11 +1712,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-22px-top {
   margin-top: 22px; }
 
+.mg-22px-bottom {
+  margin-bottom: 22px; }
+
 .mg-22px-right {
   margin-right: 22px; }
 
 .mg-22px-left {
   margin-left: 22px; }
+
+.mg-22px-vertical {
+  margin-top: 22px;
+  margin-bottom: 22px; }
+
+.mg-22px-horizontal {
+  margin-left: 22px;
+  margin-right: 22px; }
 
 .mg-23px {
   margin: 23px; }
@@ -1493,11 +1735,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-23px-top {
   margin-top: 23px; }
 
+.mg-23px-bottom {
+  margin-bottom: 23px; }
+
 .mg-23px-right {
   margin-right: 23px; }
 
 .mg-23px-left {
   margin-left: 23px; }
+
+.mg-23px-vertical {
+  margin-top: 23px;
+  margin-bottom: 23px; }
+
+.mg-23px-horizontal {
+  margin-left: 23px;
+  margin-right: 23px; }
 
 .mg-24px {
   margin: 24px; }
@@ -1505,11 +1758,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-24px-top {
   margin-top: 24px; }
 
+.mg-24px-bottom {
+  margin-bottom: 24px; }
+
 .mg-24px-right {
   margin-right: 24px; }
 
 .mg-24px-left {
   margin-left: 24px; }
+
+.mg-24px-vertical {
+  margin-top: 24px;
+  margin-bottom: 24px; }
+
+.mg-24px-horizontal {
+  margin-left: 24px;
+  margin-right: 24px; }
 
 .mg-25px {
   margin: 25px; }
@@ -1517,11 +1781,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-25px-top {
   margin-top: 25px; }
 
+.mg-25px-bottom {
+  margin-bottom: 25px; }
+
 .mg-25px-right {
   margin-right: 25px; }
 
 .mg-25px-left {
   margin-left: 25px; }
+
+.mg-25px-vertical {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.mg-25px-horizontal {
+  margin-left: 25px;
+  margin-right: 25px; }
 
 .mg-26px {
   margin: 26px; }
@@ -1529,11 +1804,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-26px-top {
   margin-top: 26px; }
 
+.mg-26px-bottom {
+  margin-bottom: 26px; }
+
 .mg-26px-right {
   margin-right: 26px; }
 
 .mg-26px-left {
   margin-left: 26px; }
+
+.mg-26px-vertical {
+  margin-top: 26px;
+  margin-bottom: 26px; }
+
+.mg-26px-horizontal {
+  margin-left: 26px;
+  margin-right: 26px; }
 
 .mg-27px {
   margin: 27px; }
@@ -1541,11 +1827,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-27px-top {
   margin-top: 27px; }
 
+.mg-27px-bottom {
+  margin-bottom: 27px; }
+
 .mg-27px-right {
   margin-right: 27px; }
 
 .mg-27px-left {
   margin-left: 27px; }
+
+.mg-27px-vertical {
+  margin-top: 27px;
+  margin-bottom: 27px; }
+
+.mg-27px-horizontal {
+  margin-left: 27px;
+  margin-right: 27px; }
 
 .mg-28px {
   margin: 28px; }
@@ -1553,11 +1850,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-28px-top {
   margin-top: 28px; }
 
+.mg-28px-bottom {
+  margin-bottom: 28px; }
+
 .mg-28px-right {
   margin-right: 28px; }
 
 .mg-28px-left {
   margin-left: 28px; }
+
+.mg-28px-vertical {
+  margin-top: 28px;
+  margin-bottom: 28px; }
+
+.mg-28px-horizontal {
+  margin-left: 28px;
+  margin-right: 28px; }
 
 .mg-29px {
   margin: 29px; }
@@ -1565,11 +1873,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-29px-top {
   margin-top: 29px; }
 
+.mg-29px-bottom {
+  margin-bottom: 29px; }
+
 .mg-29px-right {
   margin-right: 29px; }
 
 .mg-29px-left {
   margin-left: 29px; }
+
+.mg-29px-vertical {
+  margin-top: 29px;
+  margin-bottom: 29px; }
+
+.mg-29px-horizontal {
+  margin-left: 29px;
+  margin-right: 29px; }
 
 .mg-30px {
   margin: 30px; }
@@ -1577,11 +1896,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-30px-top {
   margin-top: 30px; }
 
+.mg-30px-bottom {
+  margin-bottom: 30px; }
+
 .mg-30px-right {
   margin-right: 30px; }
 
 .mg-30px-left {
   margin-left: 30px; }
+
+.mg-30px-vertical {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.mg-30px-horizontal {
+  margin-left: 30px;
+  margin-right: 30px; }
 
 .mg-31px {
   margin: 31px; }
@@ -1589,11 +1919,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-31px-top {
   margin-top: 31px; }
 
+.mg-31px-bottom {
+  margin-bottom: 31px; }
+
 .mg-31px-right {
   margin-right: 31px; }
 
 .mg-31px-left {
   margin-left: 31px; }
+
+.mg-31px-vertical {
+  margin-top: 31px;
+  margin-bottom: 31px; }
+
+.mg-31px-horizontal {
+  margin-left: 31px;
+  margin-right: 31px; }
 
 .mg-32px {
   margin: 32px; }
@@ -1601,11 +1942,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-32px-top {
   margin-top: 32px; }
 
+.mg-32px-bottom {
+  margin-bottom: 32px; }
+
 .mg-32px-right {
   margin-right: 32px; }
 
 .mg-32px-left {
   margin-left: 32px; }
+
+.mg-32px-vertical {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+.mg-32px-horizontal {
+  margin-left: 32px;
+  margin-right: 32px; }
 
 .mg-33px {
   margin: 33px; }
@@ -1613,11 +1965,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-33px-top {
   margin-top: 33px; }
 
+.mg-33px-bottom {
+  margin-bottom: 33px; }
+
 .mg-33px-right {
   margin-right: 33px; }
 
 .mg-33px-left {
   margin-left: 33px; }
+
+.mg-33px-vertical {
+  margin-top: 33px;
+  margin-bottom: 33px; }
+
+.mg-33px-horizontal {
+  margin-left: 33px;
+  margin-right: 33px; }
 
 .mg-34px {
   margin: 34px; }
@@ -1625,11 +1988,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-34px-top {
   margin-top: 34px; }
 
+.mg-34px-bottom {
+  margin-bottom: 34px; }
+
 .mg-34px-right {
   margin-right: 34px; }
 
 .mg-34px-left {
   margin-left: 34px; }
+
+.mg-34px-vertical {
+  margin-top: 34px;
+  margin-bottom: 34px; }
+
+.mg-34px-horizontal {
+  margin-left: 34px;
+  margin-right: 34px; }
 
 .mg-35px {
   margin: 35px; }
@@ -1637,11 +2011,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-35px-top {
   margin-top: 35px; }
 
+.mg-35px-bottom {
+  margin-bottom: 35px; }
+
 .mg-35px-right {
   margin-right: 35px; }
 
 .mg-35px-left {
   margin-left: 35px; }
+
+.mg-35px-vertical {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.mg-35px-horizontal {
+  margin-left: 35px;
+  margin-right: 35px; }
 
 .mg-36px {
   margin: 36px; }
@@ -1649,11 +2034,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-36px-top {
   margin-top: 36px; }
 
+.mg-36px-bottom {
+  margin-bottom: 36px; }
+
 .mg-36px-right {
   margin-right: 36px; }
 
 .mg-36px-left {
   margin-left: 36px; }
+
+.mg-36px-vertical {
+  margin-top: 36px;
+  margin-bottom: 36px; }
+
+.mg-36px-horizontal {
+  margin-left: 36px;
+  margin-right: 36px; }
 
 .mg-37px {
   margin: 37px; }
@@ -1661,11 +2057,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-37px-top {
   margin-top: 37px; }
 
+.mg-37px-bottom {
+  margin-bottom: 37px; }
+
 .mg-37px-right {
   margin-right: 37px; }
 
 .mg-37px-left {
   margin-left: 37px; }
+
+.mg-37px-vertical {
+  margin-top: 37px;
+  margin-bottom: 37px; }
+
+.mg-37px-horizontal {
+  margin-left: 37px;
+  margin-right: 37px; }
 
 .mg-38px {
   margin: 38px; }
@@ -1673,11 +2080,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-38px-top {
   margin-top: 38px; }
 
+.mg-38px-bottom {
+  margin-bottom: 38px; }
+
 .mg-38px-right {
   margin-right: 38px; }
 
 .mg-38px-left {
   margin-left: 38px; }
+
+.mg-38px-vertical {
+  margin-top: 38px;
+  margin-bottom: 38px; }
+
+.mg-38px-horizontal {
+  margin-left: 38px;
+  margin-right: 38px; }
 
 .mg-39px {
   margin: 39px; }
@@ -1685,11 +2103,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-39px-top {
   margin-top: 39px; }
 
+.mg-39px-bottom {
+  margin-bottom: 39px; }
+
 .mg-39px-right {
   margin-right: 39px; }
 
 .mg-39px-left {
   margin-left: 39px; }
+
+.mg-39px-vertical {
+  margin-top: 39px;
+  margin-bottom: 39px; }
+
+.mg-39px-horizontal {
+  margin-left: 39px;
+  margin-right: 39px; }
 
 .mg-40px {
   margin: 40px; }
@@ -1697,11 +2126,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-40px-top {
   margin-top: 40px; }
 
+.mg-40px-bottom {
+  margin-bottom: 40px; }
+
 .mg-40px-right {
   margin-right: 40px; }
 
 .mg-40px-left {
   margin-left: 40px; }
+
+.mg-40px-vertical {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.mg-40px-horizontal {
+  margin-left: 40px;
+  margin-right: 40px; }
 
 .mg-41px {
   margin: 41px; }
@@ -1709,11 +2149,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-41px-top {
   margin-top: 41px; }
 
+.mg-41px-bottom {
+  margin-bottom: 41px; }
+
 .mg-41px-right {
   margin-right: 41px; }
 
 .mg-41px-left {
   margin-left: 41px; }
+
+.mg-41px-vertical {
+  margin-top: 41px;
+  margin-bottom: 41px; }
+
+.mg-41px-horizontal {
+  margin-left: 41px;
+  margin-right: 41px; }
 
 .mg-42px {
   margin: 42px; }
@@ -1721,11 +2172,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-42px-top {
   margin-top: 42px; }
 
+.mg-42px-bottom {
+  margin-bottom: 42px; }
+
 .mg-42px-right {
   margin-right: 42px; }
 
 .mg-42px-left {
   margin-left: 42px; }
+
+.mg-42px-vertical {
+  margin-top: 42px;
+  margin-bottom: 42px; }
+
+.mg-42px-horizontal {
+  margin-left: 42px;
+  margin-right: 42px; }
 
 .mg-43px {
   margin: 43px; }
@@ -1733,11 +2195,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-43px-top {
   margin-top: 43px; }
 
+.mg-43px-bottom {
+  margin-bottom: 43px; }
+
 .mg-43px-right {
   margin-right: 43px; }
 
 .mg-43px-left {
   margin-left: 43px; }
+
+.mg-43px-vertical {
+  margin-top: 43px;
+  margin-bottom: 43px; }
+
+.mg-43px-horizontal {
+  margin-left: 43px;
+  margin-right: 43px; }
 
 .mg-44px {
   margin: 44px; }
@@ -1745,11 +2218,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-44px-top {
   margin-top: 44px; }
 
+.mg-44px-bottom {
+  margin-bottom: 44px; }
+
 .mg-44px-right {
   margin-right: 44px; }
 
 .mg-44px-left {
   margin-left: 44px; }
+
+.mg-44px-vertical {
+  margin-top: 44px;
+  margin-bottom: 44px; }
+
+.mg-44px-horizontal {
+  margin-left: 44px;
+  margin-right: 44px; }
 
 .mg-45px {
   margin: 45px; }
@@ -1757,11 +2241,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-45px-top {
   margin-top: 45px; }
 
+.mg-45px-bottom {
+  margin-bottom: 45px; }
+
 .mg-45px-right {
   margin-right: 45px; }
 
 .mg-45px-left {
   margin-left: 45px; }
+
+.mg-45px-vertical {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.mg-45px-horizontal {
+  margin-left: 45px;
+  margin-right: 45px; }
 
 .mg-46px {
   margin: 46px; }
@@ -1769,11 +2264,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-46px-top {
   margin-top: 46px; }
 
+.mg-46px-bottom {
+  margin-bottom: 46px; }
+
 .mg-46px-right {
   margin-right: 46px; }
 
 .mg-46px-left {
   margin-left: 46px; }
+
+.mg-46px-vertical {
+  margin-top: 46px;
+  margin-bottom: 46px; }
+
+.mg-46px-horizontal {
+  margin-left: 46px;
+  margin-right: 46px; }
 
 .mg-47px {
   margin: 47px; }
@@ -1781,11 +2287,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-47px-top {
   margin-top: 47px; }
 
+.mg-47px-bottom {
+  margin-bottom: 47px; }
+
 .mg-47px-right {
   margin-right: 47px; }
 
 .mg-47px-left {
   margin-left: 47px; }
+
+.mg-47px-vertical {
+  margin-top: 47px;
+  margin-bottom: 47px; }
+
+.mg-47px-horizontal {
+  margin-left: 47px;
+  margin-right: 47px; }
 
 .mg-48px {
   margin: 48px; }
@@ -1793,11 +2310,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-48px-top {
   margin-top: 48px; }
 
+.mg-48px-bottom {
+  margin-bottom: 48px; }
+
 .mg-48px-right {
   margin-right: 48px; }
 
 .mg-48px-left {
   margin-left: 48px; }
+
+.mg-48px-vertical {
+  margin-top: 48px;
+  margin-bottom: 48px; }
+
+.mg-48px-horizontal {
+  margin-left: 48px;
+  margin-right: 48px; }
 
 .mg-49px {
   margin: 49px; }
@@ -1805,11 +2333,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-49px-top {
   margin-top: 49px; }
 
+.mg-49px-bottom {
+  margin-bottom: 49px; }
+
 .mg-49px-right {
   margin-right: 49px; }
 
 .mg-49px-left {
   margin-left: 49px; }
+
+.mg-49px-vertical {
+  margin-top: 49px;
+  margin-bottom: 49px; }
+
+.mg-49px-horizontal {
+  margin-left: 49px;
+  margin-right: 49px; }
 
 .mg-50px {
   margin: 50px; }
@@ -1817,11 +2356,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-50px-top {
   margin-top: 50px; }
 
+.mg-50px-bottom {
+  margin-bottom: 50px; }
+
 .mg-50px-right {
   margin-right: 50px; }
 
 .mg-50px-left {
   margin-left: 50px; }
+
+.mg-50px-vertical {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.mg-50px-horizontal {
+  margin-left: 50px;
+  margin-right: 50px; }
 
 .mg-51px {
   margin: 51px; }
@@ -1829,11 +2379,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-51px-top {
   margin-top: 51px; }
 
+.mg-51px-bottom {
+  margin-bottom: 51px; }
+
 .mg-51px-right {
   margin-right: 51px; }
 
 .mg-51px-left {
   margin-left: 51px; }
+
+.mg-51px-vertical {
+  margin-top: 51px;
+  margin-bottom: 51px; }
+
+.mg-51px-horizontal {
+  margin-left: 51px;
+  margin-right: 51px; }
 
 .mg-52px {
   margin: 52px; }
@@ -1841,11 +2402,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-52px-top {
   margin-top: 52px; }
 
+.mg-52px-bottom {
+  margin-bottom: 52px; }
+
 .mg-52px-right {
   margin-right: 52px; }
 
 .mg-52px-left {
   margin-left: 52px; }
+
+.mg-52px-vertical {
+  margin-top: 52px;
+  margin-bottom: 52px; }
+
+.mg-52px-horizontal {
+  margin-left: 52px;
+  margin-right: 52px; }
 
 .mg-53px {
   margin: 53px; }
@@ -1853,11 +2425,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-53px-top {
   margin-top: 53px; }
 
+.mg-53px-bottom {
+  margin-bottom: 53px; }
+
 .mg-53px-right {
   margin-right: 53px; }
 
 .mg-53px-left {
   margin-left: 53px; }
+
+.mg-53px-vertical {
+  margin-top: 53px;
+  margin-bottom: 53px; }
+
+.mg-53px-horizontal {
+  margin-left: 53px;
+  margin-right: 53px; }
 
 .mg-54px {
   margin: 54px; }
@@ -1865,11 +2448,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-54px-top {
   margin-top: 54px; }
 
+.mg-54px-bottom {
+  margin-bottom: 54px; }
+
 .mg-54px-right {
   margin-right: 54px; }
 
 .mg-54px-left {
   margin-left: 54px; }
+
+.mg-54px-vertical {
+  margin-top: 54px;
+  margin-bottom: 54px; }
+
+.mg-54px-horizontal {
+  margin-left: 54px;
+  margin-right: 54px; }
 
 .mg-55px {
   margin: 55px; }
@@ -1877,11 +2471,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-55px-top {
   margin-top: 55px; }
 
+.mg-55px-bottom {
+  margin-bottom: 55px; }
+
 .mg-55px-right {
   margin-right: 55px; }
 
 .mg-55px-left {
   margin-left: 55px; }
+
+.mg-55px-vertical {
+  margin-top: 55px;
+  margin-bottom: 55px; }
+
+.mg-55px-horizontal {
+  margin-left: 55px;
+  margin-right: 55px; }
 
 .mg-56px {
   margin: 56px; }
@@ -1889,11 +2494,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-56px-top {
   margin-top: 56px; }
 
+.mg-56px-bottom {
+  margin-bottom: 56px; }
+
 .mg-56px-right {
   margin-right: 56px; }
 
 .mg-56px-left {
   margin-left: 56px; }
+
+.mg-56px-vertical {
+  margin-top: 56px;
+  margin-bottom: 56px; }
+
+.mg-56px-horizontal {
+  margin-left: 56px;
+  margin-right: 56px; }
 
 .mg-57px {
   margin: 57px; }
@@ -1901,11 +2517,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-57px-top {
   margin-top: 57px; }
 
+.mg-57px-bottom {
+  margin-bottom: 57px; }
+
 .mg-57px-right {
   margin-right: 57px; }
 
 .mg-57px-left {
   margin-left: 57px; }
+
+.mg-57px-vertical {
+  margin-top: 57px;
+  margin-bottom: 57px; }
+
+.mg-57px-horizontal {
+  margin-left: 57px;
+  margin-right: 57px; }
 
 .mg-58px {
   margin: 58px; }
@@ -1913,11 +2540,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-58px-top {
   margin-top: 58px; }
 
+.mg-58px-bottom {
+  margin-bottom: 58px; }
+
 .mg-58px-right {
   margin-right: 58px; }
 
 .mg-58px-left {
   margin-left: 58px; }
+
+.mg-58px-vertical {
+  margin-top: 58px;
+  margin-bottom: 58px; }
+
+.mg-58px-horizontal {
+  margin-left: 58px;
+  margin-right: 58px; }
 
 .mg-59px {
   margin: 59px; }
@@ -1925,11 +2563,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-59px-top {
   margin-top: 59px; }
 
+.mg-59px-bottom {
+  margin-bottom: 59px; }
+
 .mg-59px-right {
   margin-right: 59px; }
 
 .mg-59px-left {
   margin-left: 59px; }
+
+.mg-59px-vertical {
+  margin-top: 59px;
+  margin-bottom: 59px; }
+
+.mg-59px-horizontal {
+  margin-left: 59px;
+  margin-right: 59px; }
 
 .mg-60px {
   margin: 60px; }
@@ -1937,11 +2586,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-60px-top {
   margin-top: 60px; }
 
+.mg-60px-bottom {
+  margin-bottom: 60px; }
+
 .mg-60px-right {
   margin-right: 60px; }
 
 .mg-60px-left {
   margin-left: 60px; }
+
+.mg-60px-vertical {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.mg-60px-horizontal {
+  margin-left: 60px;
+  margin-right: 60px; }
 
 .mg-61px {
   margin: 61px; }
@@ -1949,11 +2609,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-61px-top {
   margin-top: 61px; }
 
+.mg-61px-bottom {
+  margin-bottom: 61px; }
+
 .mg-61px-right {
   margin-right: 61px; }
 
 .mg-61px-left {
   margin-left: 61px; }
+
+.mg-61px-vertical {
+  margin-top: 61px;
+  margin-bottom: 61px; }
+
+.mg-61px-horizontal {
+  margin-left: 61px;
+  margin-right: 61px; }
 
 .mg-62px {
   margin: 62px; }
@@ -1961,11 +2632,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-62px-top {
   margin-top: 62px; }
 
+.mg-62px-bottom {
+  margin-bottom: 62px; }
+
 .mg-62px-right {
   margin-right: 62px; }
 
 .mg-62px-left {
   margin-left: 62px; }
+
+.mg-62px-vertical {
+  margin-top: 62px;
+  margin-bottom: 62px; }
+
+.mg-62px-horizontal {
+  margin-left: 62px;
+  margin-right: 62px; }
 
 .mg-63px {
   margin: 63px; }
@@ -1973,11 +2655,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-63px-top {
   margin-top: 63px; }
 
+.mg-63px-bottom {
+  margin-bottom: 63px; }
+
 .mg-63px-right {
   margin-right: 63px; }
 
 .mg-63px-left {
   margin-left: 63px; }
+
+.mg-63px-vertical {
+  margin-top: 63px;
+  margin-bottom: 63px; }
+
+.mg-63px-horizontal {
+  margin-left: 63px;
+  margin-right: 63px; }
 
 .mg-64px {
   margin: 64px; }
@@ -1985,11 +2678,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-64px-top {
   margin-top: 64px; }
 
+.mg-64px-bottom {
+  margin-bottom: 64px; }
+
 .mg-64px-right {
   margin-right: 64px; }
 
 .mg-64px-left {
   margin-left: 64px; }
+
+.mg-64px-vertical {
+  margin-top: 64px;
+  margin-bottom: 64px; }
+
+.mg-64px-horizontal {
+  margin-left: 64px;
+  margin-right: 64px; }
 
 .mg-65px {
   margin: 65px; }
@@ -1997,11 +2701,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-65px-top {
   margin-top: 65px; }
 
+.mg-65px-bottom {
+  margin-bottom: 65px; }
+
 .mg-65px-right {
   margin-right: 65px; }
 
 .mg-65px-left {
   margin-left: 65px; }
+
+.mg-65px-vertical {
+  margin-top: 65px;
+  margin-bottom: 65px; }
+
+.mg-65px-horizontal {
+  margin-left: 65px;
+  margin-right: 65px; }
 
 .mg-66px {
   margin: 66px; }
@@ -2009,11 +2724,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-66px-top {
   margin-top: 66px; }
 
+.mg-66px-bottom {
+  margin-bottom: 66px; }
+
 .mg-66px-right {
   margin-right: 66px; }
 
 .mg-66px-left {
   margin-left: 66px; }
+
+.mg-66px-vertical {
+  margin-top: 66px;
+  margin-bottom: 66px; }
+
+.mg-66px-horizontal {
+  margin-left: 66px;
+  margin-right: 66px; }
 
 .mg-67px {
   margin: 67px; }
@@ -2021,11 +2747,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-67px-top {
   margin-top: 67px; }
 
+.mg-67px-bottom {
+  margin-bottom: 67px; }
+
 .mg-67px-right {
   margin-right: 67px; }
 
 .mg-67px-left {
   margin-left: 67px; }
+
+.mg-67px-vertical {
+  margin-top: 67px;
+  margin-bottom: 67px; }
+
+.mg-67px-horizontal {
+  margin-left: 67px;
+  margin-right: 67px; }
 
 .mg-68px {
   margin: 68px; }
@@ -2033,11 +2770,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-68px-top {
   margin-top: 68px; }
 
+.mg-68px-bottom {
+  margin-bottom: 68px; }
+
 .mg-68px-right {
   margin-right: 68px; }
 
 .mg-68px-left {
   margin-left: 68px; }
+
+.mg-68px-vertical {
+  margin-top: 68px;
+  margin-bottom: 68px; }
+
+.mg-68px-horizontal {
+  margin-left: 68px;
+  margin-right: 68px; }
 
 .mg-69px {
   margin: 69px; }
@@ -2045,11 +2793,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-69px-top {
   margin-top: 69px; }
 
+.mg-69px-bottom {
+  margin-bottom: 69px; }
+
 .mg-69px-right {
   margin-right: 69px; }
 
 .mg-69px-left {
   margin-left: 69px; }
+
+.mg-69px-vertical {
+  margin-top: 69px;
+  margin-bottom: 69px; }
+
+.mg-69px-horizontal {
+  margin-left: 69px;
+  margin-right: 69px; }
 
 .mg-70px {
   margin: 70px; }
@@ -2057,11 +2816,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-70px-top {
   margin-top: 70px; }
 
+.mg-70px-bottom {
+  margin-bottom: 70px; }
+
 .mg-70px-right {
   margin-right: 70px; }
 
 .mg-70px-left {
   margin-left: 70px; }
+
+.mg-70px-vertical {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mg-70px-horizontal {
+  margin-left: 70px;
+  margin-right: 70px; }
 
 .mg-71px {
   margin: 71px; }
@@ -2069,11 +2839,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-71px-top {
   margin-top: 71px; }
 
+.mg-71px-bottom {
+  margin-bottom: 71px; }
+
 .mg-71px-right {
   margin-right: 71px; }
 
 .mg-71px-left {
   margin-left: 71px; }
+
+.mg-71px-vertical {
+  margin-top: 71px;
+  margin-bottom: 71px; }
+
+.mg-71px-horizontal {
+  margin-left: 71px;
+  margin-right: 71px; }
 
 .mg-72px {
   margin: 72px; }
@@ -2081,11 +2862,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-72px-top {
   margin-top: 72px; }
 
+.mg-72px-bottom {
+  margin-bottom: 72px; }
+
 .mg-72px-right {
   margin-right: 72px; }
 
 .mg-72px-left {
   margin-left: 72px; }
+
+.mg-72px-vertical {
+  margin-top: 72px;
+  margin-bottom: 72px; }
+
+.mg-72px-horizontal {
+  margin-left: 72px;
+  margin-right: 72px; }
 
 .mg-73px {
   margin: 73px; }
@@ -2093,11 +2885,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-73px-top {
   margin-top: 73px; }
 
+.mg-73px-bottom {
+  margin-bottom: 73px; }
+
 .mg-73px-right {
   margin-right: 73px; }
 
 .mg-73px-left {
   margin-left: 73px; }
+
+.mg-73px-vertical {
+  margin-top: 73px;
+  margin-bottom: 73px; }
+
+.mg-73px-horizontal {
+  margin-left: 73px;
+  margin-right: 73px; }
 
 .mg-74px {
   margin: 74px; }
@@ -2105,11 +2908,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-74px-top {
   margin-top: 74px; }
 
+.mg-74px-bottom {
+  margin-bottom: 74px; }
+
 .mg-74px-right {
   margin-right: 74px; }
 
 .mg-74px-left {
   margin-left: 74px; }
+
+.mg-74px-vertical {
+  margin-top: 74px;
+  margin-bottom: 74px; }
+
+.mg-74px-horizontal {
+  margin-left: 74px;
+  margin-right: 74px; }
 
 .mg-75px {
   margin: 75px; }
@@ -2117,11 +2931,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-75px-top {
   margin-top: 75px; }
 
+.mg-75px-bottom {
+  margin-bottom: 75px; }
+
 .mg-75px-right {
   margin-right: 75px; }
 
 .mg-75px-left {
   margin-left: 75px; }
+
+.mg-75px-vertical {
+  margin-top: 75px;
+  margin-bottom: 75px; }
+
+.mg-75px-horizontal {
+  margin-left: 75px;
+  margin-right: 75px; }
 
 .mg-76px {
   margin: 76px; }
@@ -2129,11 +2954,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-76px-top {
   margin-top: 76px; }
 
+.mg-76px-bottom {
+  margin-bottom: 76px; }
+
 .mg-76px-right {
   margin-right: 76px; }
 
 .mg-76px-left {
   margin-left: 76px; }
+
+.mg-76px-vertical {
+  margin-top: 76px;
+  margin-bottom: 76px; }
+
+.mg-76px-horizontal {
+  margin-left: 76px;
+  margin-right: 76px; }
 
 .mg-77px {
   margin: 77px; }
@@ -2141,11 +2977,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-77px-top {
   margin-top: 77px; }
 
+.mg-77px-bottom {
+  margin-bottom: 77px; }
+
 .mg-77px-right {
   margin-right: 77px; }
 
 .mg-77px-left {
   margin-left: 77px; }
+
+.mg-77px-vertical {
+  margin-top: 77px;
+  margin-bottom: 77px; }
+
+.mg-77px-horizontal {
+  margin-left: 77px;
+  margin-right: 77px; }
 
 .mg-78px {
   margin: 78px; }
@@ -2153,11 +3000,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-78px-top {
   margin-top: 78px; }
 
+.mg-78px-bottom {
+  margin-bottom: 78px; }
+
 .mg-78px-right {
   margin-right: 78px; }
 
 .mg-78px-left {
   margin-left: 78px; }
+
+.mg-78px-vertical {
+  margin-top: 78px;
+  margin-bottom: 78px; }
+
+.mg-78px-horizontal {
+  margin-left: 78px;
+  margin-right: 78px; }
 
 .mg-79px {
   margin: 79px; }
@@ -2165,11 +3023,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-79px-top {
   margin-top: 79px; }
 
+.mg-79px-bottom {
+  margin-bottom: 79px; }
+
 .mg-79px-right {
   margin-right: 79px; }
 
 .mg-79px-left {
   margin-left: 79px; }
+
+.mg-79px-vertical {
+  margin-top: 79px;
+  margin-bottom: 79px; }
+
+.mg-79px-horizontal {
+  margin-left: 79px;
+  margin-right: 79px; }
 
 .mg-80px {
   margin: 80px; }
@@ -2177,11 +3046,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-80px-top {
   margin-top: 80px; }
 
+.mg-80px-bottom {
+  margin-bottom: 80px; }
+
 .mg-80px-right {
   margin-right: 80px; }
 
 .mg-80px-left {
   margin-left: 80px; }
+
+.mg-80px-vertical {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.mg-80px-horizontal {
+  margin-left: 80px;
+  margin-right: 80px; }
 
 .mg-81px {
   margin: 81px; }
@@ -2189,11 +3069,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-81px-top {
   margin-top: 81px; }
 
+.mg-81px-bottom {
+  margin-bottom: 81px; }
+
 .mg-81px-right {
   margin-right: 81px; }
 
 .mg-81px-left {
   margin-left: 81px; }
+
+.mg-81px-vertical {
+  margin-top: 81px;
+  margin-bottom: 81px; }
+
+.mg-81px-horizontal {
+  margin-left: 81px;
+  margin-right: 81px; }
 
 .mg-82px {
   margin: 82px; }
@@ -2201,11 +3092,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-82px-top {
   margin-top: 82px; }
 
+.mg-82px-bottom {
+  margin-bottom: 82px; }
+
 .mg-82px-right {
   margin-right: 82px; }
 
 .mg-82px-left {
   margin-left: 82px; }
+
+.mg-82px-vertical {
+  margin-top: 82px;
+  margin-bottom: 82px; }
+
+.mg-82px-horizontal {
+  margin-left: 82px;
+  margin-right: 82px; }
 
 .mg-83px {
   margin: 83px; }
@@ -2213,11 +3115,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-83px-top {
   margin-top: 83px; }
 
+.mg-83px-bottom {
+  margin-bottom: 83px; }
+
 .mg-83px-right {
   margin-right: 83px; }
 
 .mg-83px-left {
   margin-left: 83px; }
+
+.mg-83px-vertical {
+  margin-top: 83px;
+  margin-bottom: 83px; }
+
+.mg-83px-horizontal {
+  margin-left: 83px;
+  margin-right: 83px; }
 
 .mg-84px {
   margin: 84px; }
@@ -2225,11 +3138,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-84px-top {
   margin-top: 84px; }
 
+.mg-84px-bottom {
+  margin-bottom: 84px; }
+
 .mg-84px-right {
   margin-right: 84px; }
 
 .mg-84px-left {
   margin-left: 84px; }
+
+.mg-84px-vertical {
+  margin-top: 84px;
+  margin-bottom: 84px; }
+
+.mg-84px-horizontal {
+  margin-left: 84px;
+  margin-right: 84px; }
 
 .mg-85px {
   margin: 85px; }
@@ -2237,11 +3161,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-85px-top {
   margin-top: 85px; }
 
+.mg-85px-bottom {
+  margin-bottom: 85px; }
+
 .mg-85px-right {
   margin-right: 85px; }
 
 .mg-85px-left {
   margin-left: 85px; }
+
+.mg-85px-vertical {
+  margin-top: 85px;
+  margin-bottom: 85px; }
+
+.mg-85px-horizontal {
+  margin-left: 85px;
+  margin-right: 85px; }
 
 .mg-86px {
   margin: 86px; }
@@ -2249,11 +3184,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-86px-top {
   margin-top: 86px; }
 
+.mg-86px-bottom {
+  margin-bottom: 86px; }
+
 .mg-86px-right {
   margin-right: 86px; }
 
 .mg-86px-left {
   margin-left: 86px; }
+
+.mg-86px-vertical {
+  margin-top: 86px;
+  margin-bottom: 86px; }
+
+.mg-86px-horizontal {
+  margin-left: 86px;
+  margin-right: 86px; }
 
 .mg-87px {
   margin: 87px; }
@@ -2261,11 +3207,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-87px-top {
   margin-top: 87px; }
 
+.mg-87px-bottom {
+  margin-bottom: 87px; }
+
 .mg-87px-right {
   margin-right: 87px; }
 
 .mg-87px-left {
   margin-left: 87px; }
+
+.mg-87px-vertical {
+  margin-top: 87px;
+  margin-bottom: 87px; }
+
+.mg-87px-horizontal {
+  margin-left: 87px;
+  margin-right: 87px; }
 
 .mg-88px {
   margin: 88px; }
@@ -2273,11 +3230,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-88px-top {
   margin-top: 88px; }
 
+.mg-88px-bottom {
+  margin-bottom: 88px; }
+
 .mg-88px-right {
   margin-right: 88px; }
 
 .mg-88px-left {
   margin-left: 88px; }
+
+.mg-88px-vertical {
+  margin-top: 88px;
+  margin-bottom: 88px; }
+
+.mg-88px-horizontal {
+  margin-left: 88px;
+  margin-right: 88px; }
 
 .mg-89px {
   margin: 89px; }
@@ -2285,11 +3253,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-89px-top {
   margin-top: 89px; }
 
+.mg-89px-bottom {
+  margin-bottom: 89px; }
+
 .mg-89px-right {
   margin-right: 89px; }
 
 .mg-89px-left {
   margin-left: 89px; }
+
+.mg-89px-vertical {
+  margin-top: 89px;
+  margin-bottom: 89px; }
+
+.mg-89px-horizontal {
+  margin-left: 89px;
+  margin-right: 89px; }
 
 .mg-90px {
   margin: 90px; }
@@ -2297,11 +3276,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-90px-top {
   margin-top: 90px; }
 
+.mg-90px-bottom {
+  margin-bottom: 90px; }
+
 .mg-90px-right {
   margin-right: 90px; }
 
 .mg-90px-left {
   margin-left: 90px; }
+
+.mg-90px-vertical {
+  margin-top: 90px;
+  margin-bottom: 90px; }
+
+.mg-90px-horizontal {
+  margin-left: 90px;
+  margin-right: 90px; }
 
 .mg-91px {
   margin: 91px; }
@@ -2309,11 +3299,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-91px-top {
   margin-top: 91px; }
 
+.mg-91px-bottom {
+  margin-bottom: 91px; }
+
 .mg-91px-right {
   margin-right: 91px; }
 
 .mg-91px-left {
   margin-left: 91px; }
+
+.mg-91px-vertical {
+  margin-top: 91px;
+  margin-bottom: 91px; }
+
+.mg-91px-horizontal {
+  margin-left: 91px;
+  margin-right: 91px; }
 
 .mg-92px {
   margin: 92px; }
@@ -2321,11 +3322,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-92px-top {
   margin-top: 92px; }
 
+.mg-92px-bottom {
+  margin-bottom: 92px; }
+
 .mg-92px-right {
   margin-right: 92px; }
 
 .mg-92px-left {
   margin-left: 92px; }
+
+.mg-92px-vertical {
+  margin-top: 92px;
+  margin-bottom: 92px; }
+
+.mg-92px-horizontal {
+  margin-left: 92px;
+  margin-right: 92px; }
 
 .mg-93px {
   margin: 93px; }
@@ -2333,11 +3345,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-93px-top {
   margin-top: 93px; }
 
+.mg-93px-bottom {
+  margin-bottom: 93px; }
+
 .mg-93px-right {
   margin-right: 93px; }
 
 .mg-93px-left {
   margin-left: 93px; }
+
+.mg-93px-vertical {
+  margin-top: 93px;
+  margin-bottom: 93px; }
+
+.mg-93px-horizontal {
+  margin-left: 93px;
+  margin-right: 93px; }
 
 .mg-94px {
   margin: 94px; }
@@ -2345,11 +3368,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-94px-top {
   margin-top: 94px; }
 
+.mg-94px-bottom {
+  margin-bottom: 94px; }
+
 .mg-94px-right {
   margin-right: 94px; }
 
 .mg-94px-left {
   margin-left: 94px; }
+
+.mg-94px-vertical {
+  margin-top: 94px;
+  margin-bottom: 94px; }
+
+.mg-94px-horizontal {
+  margin-left: 94px;
+  margin-right: 94px; }
 
 .mg-95px {
   margin: 95px; }
@@ -2357,11 +3391,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-95px-top {
   margin-top: 95px; }
 
+.mg-95px-bottom {
+  margin-bottom: 95px; }
+
 .mg-95px-right {
   margin-right: 95px; }
 
 .mg-95px-left {
   margin-left: 95px; }
+
+.mg-95px-vertical {
+  margin-top: 95px;
+  margin-bottom: 95px; }
+
+.mg-95px-horizontal {
+  margin-left: 95px;
+  margin-right: 95px; }
 
 .mg-96px {
   margin: 96px; }
@@ -2369,11 +3414,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-96px-top {
   margin-top: 96px; }
 
+.mg-96px-bottom {
+  margin-bottom: 96px; }
+
 .mg-96px-right {
   margin-right: 96px; }
 
 .mg-96px-left {
   margin-left: 96px; }
+
+.mg-96px-vertical {
+  margin-top: 96px;
+  margin-bottom: 96px; }
+
+.mg-96px-horizontal {
+  margin-left: 96px;
+  margin-right: 96px; }
 
 .mg-97px {
   margin: 97px; }
@@ -2381,11 +3437,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-97px-top {
   margin-top: 97px; }
 
+.mg-97px-bottom {
+  margin-bottom: 97px; }
+
 .mg-97px-right {
   margin-right: 97px; }
 
 .mg-97px-left {
   margin-left: 97px; }
+
+.mg-97px-vertical {
+  margin-top: 97px;
+  margin-bottom: 97px; }
+
+.mg-97px-horizontal {
+  margin-left: 97px;
+  margin-right: 97px; }
 
 .mg-98px {
   margin: 98px; }
@@ -2393,11 +3460,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-98px-top {
   margin-top: 98px; }
 
+.mg-98px-bottom {
+  margin-bottom: 98px; }
+
 .mg-98px-right {
   margin-right: 98px; }
 
 .mg-98px-left {
   margin-left: 98px; }
+
+.mg-98px-vertical {
+  margin-top: 98px;
+  margin-bottom: 98px; }
+
+.mg-98px-horizontal {
+  margin-left: 98px;
+  margin-right: 98px; }
 
 .mg-99px {
   margin: 99px; }
@@ -2405,11 +3483,22 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-99px-top {
   margin-top: 99px; }
 
+.mg-99px-bottom {
+  margin-bottom: 99px; }
+
 .mg-99px-right {
   margin-right: 99px; }
 
 .mg-99px-left {
   margin-left: 99px; }
+
+.mg-99px-vertical {
+  margin-top: 99px;
+  margin-bottom: 99px; }
+
+.mg-99px-horizontal {
+  margin-left: 99px;
+  margin-right: 99px; }
 
 .mg-100px {
   margin: 100px; }
@@ -2417,8 +3506,223 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .mg-100px-top {
   margin-top: 100px; }
 
+.mg-100px-bottom {
+  margin-bottom: 100px; }
+
 .mg-100px-right {
   margin-right: 100px; }
 
 .mg-100px-left {
   margin-left: 100px; }
+
+.mg-100px-vertical {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.mg-100px-horizontal {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.fs-8px {
+  font-size: 8px; }
+
+.fs-9px {
+  font-size: 9px; }
+
+.fs-10px {
+  font-size: 10px; }
+
+.fs-11px {
+  font-size: 11px; }
+
+.fs-12px {
+  font-size: 12px; }
+
+.fs-13px {
+  font-size: 13px; }
+
+.fs-14px {
+  font-size: 14px; }
+
+.fs-15px {
+  font-size: 15px; }
+
+.fs-16px {
+  font-size: 16px; }
+
+.fs-17px {
+  font-size: 17px; }
+
+.fs-18px {
+  font-size: 18px; }
+
+.fs-19px {
+  font-size: 19px; }
+
+.fs-20px {
+  font-size: 20px; }
+
+.fs-21px {
+  font-size: 21px; }
+
+.fs-22px {
+  font-size: 22px; }
+
+.fs-23px {
+  font-size: 23px; }
+
+.fs-24px {
+  font-size: 24px; }
+
+.fs-25px {
+  font-size: 25px; }
+
+.fs-26px {
+  font-size: 26px; }
+
+.fs-27px {
+  font-size: 27px; }
+
+.fs-28px {
+  font-size: 28px; }
+
+.fs-29px {
+  font-size: 29px; }
+
+.fs-30px {
+  font-size: 30px; }
+
+.fs-31px {
+  font-size: 31px; }
+
+.fs-32px {
+  font-size: 32px; }
+
+.fs-33px {
+  font-size: 33px; }
+
+.fs-34px {
+  font-size: 34px; }
+
+.fs-35px {
+  font-size: 35px; }
+
+.fs-36px {
+  font-size: 36px; }
+
+.fs-37px {
+  font-size: 37px; }
+
+.fs-38px {
+  font-size: 38px; }
+
+.fs-39px {
+  font-size: 39px; }
+
+.fs-40px {
+  font-size: 40px; }
+
+.fs-41px {
+  font-size: 41px; }
+
+.fs-42px {
+  font-size: 42px; }
+
+.fs-43px {
+  font-size: 43px; }
+
+.fs-44px {
+  font-size: 44px; }
+
+.fs-45px {
+  font-size: 45px; }
+
+.fs-46px {
+  font-size: 46px; }
+
+.fs-47px {
+  font-size: 47px; }
+
+.fs-48px {
+  font-size: 48px; }
+
+.fs-49px {
+  font-size: 49px; }
+
+.fs-50px {
+  font-size: 50px; }
+
+.fs-51px {
+  font-size: 51px; }
+
+.fs-52px {
+  font-size: 52px; }
+
+.fs-53px {
+  font-size: 53px; }
+
+.fs-54px {
+  font-size: 54px; }
+
+.fs-55px {
+  font-size: 55px; }
+
+.fs-56px {
+  font-size: 56px; }
+
+.fs-57px {
+  font-size: 57px; }
+
+.fs-58px {
+  font-size: 58px; }
+
+.fs-59px {
+  font-size: 59px; }
+
+.fs-60px {
+  font-size: 60px; }
+
+.fs-61px {
+  font-size: 61px; }
+
+.fs-62px {
+  font-size: 62px; }
+
+.fs-63px {
+  font-size: 63px; }
+
+.fs-64px {
+  font-size: 64px; }
+
+.fs-65px {
+  font-size: 65px; }
+
+.fs-66px {
+  font-size: 66px; }
+
+.fs-67px {
+  font-size: 67px; }
+
+.fs-68px {
+  font-size: 68px; }
+
+.fs-69px {
+  font-size: 69px; }
+
+.fs-70px {
+  font-size: 70px; }
+
+.fs-71px {
+  font-size: 71px; }
+
+.fs-72px {
+  font-size: 72px; }
+
+.fs-73px {
+  font-size: 73px; }
+
+.fs-74px {
+  font-size: 74px; }
+
+.fs-75px {
+  font-size: 75px; }
