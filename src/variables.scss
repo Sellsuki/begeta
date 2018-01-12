@@ -1,16 +1,97 @@
 /* Variables
 
-Think of variables as a way to store information that you want to reuse throughout your stylesheet. 
-You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. 
+Think of variables as a way to store information that you want to reuse throughout your stylesheet.
+You can store things like colors, font stacks, or any CSS value you think you'll want to reuse.
 Sass uses the $ symbol to make something a variable. */
 
 // http://sass-lang.com/guide : Topic Variables
 
-$color-primary: #f00;
-$color-primary-hover: #0f0;
+/* ============================
+  Color Variable(follow by Bulma.io)
+============================ */
+$color-black: hsl(0, 0%, 4%);
+$color-black-bis: hsl(0, 0%, 7%);
+$color-black-ter: hsl(0, 0%, 14%);
+$color-grey-darker: hsl(0, 0%, 21%);
+$color-grey-dark: hsl(0, 0%, 29%);
+$color-grey: hsl(0, 0%, 48%);
+$color-grey-light: hsl(0, 0%, 71%);
+$color-grey-lighter: hsl(0, 0%, 86%);
+$color-white-ter: hsl(0, 0%, 96%);
+$color-white-bis: hsl(0, 0%, 98%);
+$color-white: hsl(0, 0%, 100%);
+$color-orange: hsl(14, 100%, 53%);
+$color-yellow: hsl(48, 100%, 67%);
+$color-green: hsl(141, 71%, 48%);
+$color-turquoise: hsl(171, 100%, 41%);
+$color-cyan: hsl(204, 86%, 53%);
+$color-blue: hsl(217, 71%, 53%);
+$color-purple: hsl(271, 100%, 71%);
+$color-red: hsl(348, 100%, 61%);
+/* TODO: Have to change */
+$color-primary: #1480e2;
+$color-info: #0073ff;
+$color-success: #a9ba26;
+$color-warning: #fbcb12;
+$color-danger: #f67571;
+$color-light: #fff;
+$color-dark: #000;
+
+/* TODO: Change color primary info success warning danger light dark */
 $color-value: (
-  'primary': $color-primary
+  'primary': $color-primary,
+  'info': $color-info,
+  'success': $color-info,
+  'warning': $color-info,
+  'danger': $color-info,
+  'light': $color-info,
+  'dark': $color-info,
+  'black': $color-black,
+  'black-bis': $color-black-bis,
+  'black-ter': $color-black-ter,
+  'grey-darker': $color-grey-darker,
+  'grey-dark': $color-grey-dark,
+  'grey': $color-grey,
+  'grey-light': $color-grey-light,
+  'grey-lighter': $color-grey-lighter,
+  'white-ter': $color-white-ter,
+  'white-bis': $color-white-bis,
+  'white': $color-white,
+  'orange': $color-orange,
+  'yellow': $color-yellow,
+  'green': $color-green,
+  'turquoise': $color-turquoise,
+  'cyan': $color-cyan,
+  'blue': $color-blue,
+  'purple': $color-purple,
+  'red': $color-red
 );
-$color-value-hover: (
+
+/* ============================
+  Cursor Variable
+============================ */
+/* TODO: Color when hover */
+/* $color-primary-hover: #0f0; */
+
+/* $color-value-hover: (
   'primary': $color-primary-hover
+); */
+
+/* ============================
+  Cursor Variable
+============================ */
+/* TODO: Change color primary info success warning danger light dark */
+$cursor-value: (
+  'all-scroll': all-scroll,
+  'crosshair': crosshair,
+  'default': default,
+  'text': text,
+  'help': help,
+  'move': move,
+  'not-allowed': not-allowed,
+  'none': none,
+  'pointer': pointer,
+  'progress': progress,
+  'zoom-in': zoom-in,
+  'zoom-out': zoom-out
 );
