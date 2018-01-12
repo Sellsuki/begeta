@@ -80,7 +80,6 @@ $color-value: (
 /* ============================
   Cursor Variable
 ============================ */
-/* TODO: Change color primary info success warning danger light dark */
 $cursor-value: (
   'all-scroll': all-scroll,
   'crosshair': crosshair,
@@ -94,4 +93,17 @@ $cursor-value: (
   'progress': progress,
   'zoom-in': zoom-in,
   'zoom-out': zoom-out
+);
+
+/* ============================
+  Display Variable
+============================ */
+$display-value: (
+  'block': block,
+  'inline': inline,
+  'inline-block': inline-block,
+  'flex': flex,
+  'grid': grid,
+  'table': table,
+  'none': none
 );
