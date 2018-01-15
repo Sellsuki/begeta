@@ -1,0 +1,3 @@
+@each $key, $value in $cursor-value {
+  .cs-#{$key} { cursor: #{$value} !important; }
+};

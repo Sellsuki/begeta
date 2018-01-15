@@ -1,0 +1,3 @@
+@each $key, $value in $display-value {
+  .dp-#{$key} { display: #{$value} !important; }
+};
