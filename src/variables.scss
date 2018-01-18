@@ -107,3 +107,13 @@ $display-value: (
   'table': table,
   'none': none
 );
+
+/* ============================
+  Breakpoints Variable
+============================ */
+$breakpoint-value: (
+  'mobile': 768px,
+  'tablet': 1023px,
+  'desktop': 1215px,
+  'widescreen': 9999px
+);
