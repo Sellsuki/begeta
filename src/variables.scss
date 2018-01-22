@@ -68,14 +68,8 @@ $color-value: (
 );
 
 /* ============================
-  Cursor Variable
+  Color when hover Variable
 ============================ */
-/* TODO: Color when hover */
-/* $color-primary-hover: #0f0; */
-
-/* $color-value-hover: (
-  'primary': $color-primary-hover
-); */
 
 /* ============================
   Cursor Variable
@@ -106,4 +100,14 @@ $display-value: (
   'grid': grid,
   'table': table,
   'none': none
+);
+
+/* ============================
+  Breakpoints Variable
+============================ */
+$breakpoint-value: (
+  'mobile': 768px,
+  'tablet': 1023px,
+  'desktop': 1215px,
+  'widescreen': 9999px
 );
