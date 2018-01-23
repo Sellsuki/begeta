@@ -1,8 +1,8 @@
 # Begeta Prototype
 
-<center>
+<p align="center">
 <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/58043-200.png">
-</center>
+</p>
 
 ---
 - [Github](https://github.com/Sellsuki/begeta)
