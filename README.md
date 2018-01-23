@@ -3,7 +3,6 @@
 </p>
 
 # Begeta Prototype
----
 - [Github](https://github.com/Sellsuki/begeta)
 - [Scss guide](http://sass-lang.com/guide)
 - [Inspiration](https://github.com/BioMaRu/biomatic)
