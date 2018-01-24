@@ -1,0 +1,3 @@
+@each $key, $value in $jtf-and-al-items-value {
+  .al-it-#{$key} { align-items: #{$value} !important; }
+};

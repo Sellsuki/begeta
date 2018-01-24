@@ -111,3 +111,15 @@ $breakpoint-value: (
   'desktop': 1215px,
   'widescreen': 9999px
 );
+
+/* ============================
+  Justify && Align Items
+============================ */
+$jtf-and-al-items-value: (
+  'start': start,
+  'end': end,
+  'flex-start': flex-start,
+  'flex-end': flex-end,
+  'center': center,
+  'strecth': strecth
+);
