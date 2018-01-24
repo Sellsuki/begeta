@@ -1,0 +1,3 @@
+@each $key, $value in $justify-align-items-value {
+  .jtf-it-#{$key} { justify-items: #{$value} !important; }
+};

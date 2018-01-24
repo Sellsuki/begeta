@@ -1,0 +1,3 @@
+@each $key, $value in $justify-align-items-value {
+  .al-it-#{$key} { align-items: #{$value} !important; }
+};
