@@ -123,3 +123,20 @@ $justify-align-items-value: (
   'center': center,
   'stretch': stretch
 );
+
+/* ============================
+  Justify && Align Content
+============================ */
+$justify-align-content-value: (
+  'start': start,
+  'end': end,
+  'left': left,
+  'right': right,
+  'flex-start': flex-start,
+  'flex-end': flex-end,
+  'center': center,
+  'stretch': stretch,
+  'space-between': space-between,
+  'space-around': space-around,
+  'space-evenly': space-evenly,
+)

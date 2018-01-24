@@ -1,0 +1,3 @@
+@each $key, $value in $justify-align-content-value {
+  .al-ct-#{$key} { align-content: #{$value} !important; }
+};
