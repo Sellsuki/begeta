@@ -1,0 +1,3 @@
+@each $key, $value in $justify-align-content-value {
+  .jtf-ct-#{$key} { justify-content: #{$value} !important; }
+};
