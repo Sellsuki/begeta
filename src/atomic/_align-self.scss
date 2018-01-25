@@ -1,0 +1,3 @@
+@each $key, $value in $justify-align-self-value {
+  .al-s-#{$key} { align-self: #{$value} !important; }
+};
