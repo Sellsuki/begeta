@@ -138,5 +138,20 @@ $justify-align-content-value: (
   'stretch': stretch,
   'space-between': space-between,
   'space-around': space-around,
-  'space-evenly': space-evenly,
-)
+  'space-evenly': space-evenly
+);
+
+/* ============================
+  Justify && Align Self
+============================ */
+$justify-align-self-value: (
+  'start': start,
+  'end': end,
+  'left': left,
+  'right': right,
+  'flex-start': flex-start,
+  'flex-end': flex-end,
+  'self-start': self-start,
+  'self-end': self-end,
+  'stretch': stretch
+);
