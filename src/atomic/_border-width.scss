@@ -1,4 +1,4 @@
-@each $key, $value in $border-width-value {
+@each $key, $value in $border-radius-width-value {
   .bd-w-#{$key} { border-width: #{$value}; }
   .bd-t-w-#{$key} { border-top-width: #{$value}; }
   .bd-bt-w-#{$key} { border-bottom-width: #{$value}; }
