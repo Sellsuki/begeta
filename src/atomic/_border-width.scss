@@ -1,0 +1,9 @@
+@each $key, $value in $border-radius-width-value {
+  .bd-w-#{$key} { border-width: #{$value}; }
+  .bd-t-w-#{$key} { border-top-width: #{$value}; }
+  .bd-bt-w-#{$key} { border-bottom-width: #{$value}; }
+  .bd-l-w-#{$key} { border-left-width: #{$value}; }
+  .bd-r-w-#{$key} { border-right-width: #{$value}; }
+  .bd-vtc-w-#{$key} { border-top-width: #{$value}; border-bottom-width: #{$value}; }
+  .bd-hrzt-w-#{$key} { border-left-width: #{$value}; border-right-width: #{$value}; }
+};

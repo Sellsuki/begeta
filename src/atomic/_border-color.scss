@@ -1,0 +1,3 @@
+@each $key, $value in $color-value {
+  .bd-cl-#{$key} { border-color: #{$value}; }
+}

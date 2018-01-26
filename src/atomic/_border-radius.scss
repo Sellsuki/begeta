@@ -1,7 +1,7 @@
-@for $i from 1 through 100 {
-  .bdrd-#{$i}px    { border-radius: #{$i}px !important; }
-  .bdrd-top-left-#{$i}px  { border-top-left-radius: #{$i}px !important; }
-  .bdrd-top-right-#{$i}px  { border-top-right-radius: #{$i}px !important; }
-  .bdrd-bottom-left-#{$i}px { border-bottom-left-radius: #{$i}px !important; }
-  .bdrd-bottom-right-#{$i}p { border-bottom-right-radius: #{$i}px !important; }
+@each $key, $value in $border-radius-width-value {
+  .bd-rd-#{$key} { border-radius: #{$value} !important; }
+  .bd-t-l-rd-#{$key}   { border-top-left-radius: #{$value} !important; }
+  .bd-t-r-rd-#{$key}   { border-top-right-radius: #{$value} !important; }
+  .bd-bt-l-rd-#{$key}  { border-bottom-left-radius: #{$value} !important; }
+  .bd-bt-r-rd-#{$key}  { border-bottom-right-radius: #{$value} !important; }
 };

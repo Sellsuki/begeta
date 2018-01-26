@@ -29,23 +29,23 @@ $color-blue: hsl(217, 71%, 53%);
 $color-purple: hsl(271, 100%, 71%);
 $color-red: hsl(348, 100%, 61%);
 /* TODO: Have to change */
-$color-primary: #1480e2;
-$color-info: #0073ff;
-$color-success: #a9ba26;
-$color-warning: #fbcb12;
-$color-danger: #f67571;
-$color-light: #fff;
-$color-dark: #000;
+$color-primary: #1066FD;
+$color-info: #2B9EEC;
+$color-success: #32D065;
+$color-warning: #FEDD62;
+$color-danger: #FC3C63;
+$color-light: #F5F5F5;
+$color-dark: #000000;
 
 /* TODO: Change color primary info success warning danger light dark */
 $color-value: (
   'primary': $color-primary,
   'info': $color-info,
-  'success': $color-info,
-  'warning': $color-info,
-  'danger': $color-info,
-  'light': $color-info,
-  'dark': $color-info,
+  'success': $color-success,
+  'warning': $color-warning,
+  'danger': $color-danger,
+  'light': $color-light,
+  'dark': $color-dark,
   'black': $color-black,
   'black-bis': $color-black-bis,
   'black-ter': $color-black-ter,
@@ -154,4 +154,38 @@ $justify-align-self-value: (
   'self-start': self-start,
   'self-end': self-end,
   'stretch': stretch
+);
+
+/* ============================
+  border style
+============================ */
+$border-style-value: (
+  'dotted': dotted,
+  'dashed': dashed,
+  'solid': solid,
+  'double': double,
+  'groove': groove,
+  'ridge': ridge,
+  'inset': inset,
+  'outset': outset,
+  'none': none,
+  'hidden': hidden,
+);
+
+
+/* ============================
+  Border Width
+============================ */
+$border-radius-width-value: (
+  '0px': 0px,
+  '1px': 1px,
+  '2px': 2px,
+  '3px': 3px,
+  '4px': 4px,
+  '5px': 5px,
+  '10px': 10px,
+  '15px': 15px,
+  '20px': 20px,
+  '25px': 25px,
+  '30px': 30px
 );
