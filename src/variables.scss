@@ -156,7 +156,9 @@ $justify-align-self-value: (
   'stretch': stretch
 );
 
-
+/* ============================
+  border style
+============================ */
 $border-style-value: (
   'dotted': dotted,
   'dashed': dashed,
@@ -168,4 +170,22 @@ $border-style-value: (
   'outset': outset,
   'none': none,
   'hidden': hidden,
+);
+
+
+/* ============================
+  Border Width
+============================ */
+$border-width-value: (
+  '0px': 0px,
+  '1px': 1px,
+  '2px': 2px,
+  '3px': 3px,
+  '4px': 4px,
+  '5px': 5px,
+  '10px': 10px,
+  '15px': 15px,
+  '20px': 20px,
+  '25px': 25px,
+  '30px': 30px
 );
