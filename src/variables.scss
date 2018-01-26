@@ -155,3 +155,17 @@ $justify-align-self-value: (
   'self-end': self-end,
   'stretch': stretch
 );
+
+
+$border-style-value: (
+  'dotted': dotted,
+  'dashed': dashed,
+  'solid': solid,
+  'double': double,
+  'groove': groove,
+  'ridge': ridge,
+  'inset': inset,
+  'outset': outset,
+  'none': none,
+  'hidden': hidden,
+);

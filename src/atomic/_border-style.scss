@@ -1,0 +1,3 @@
+@each $key, $value in $border-style-value {
+  .bd-st-#{$key} { border-style: #{$value} !important; }
+};
