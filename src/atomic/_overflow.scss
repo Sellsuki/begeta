@@ -1,4 +1,5 @@
-.ovf-visible { overflow: visible !important; }
-.ovf-auto { overflow: auto !important; }
-.ovf-hidden { overflow: hidden !important; }
-.ovf-scroll { overflow: scroll !important; }
+@each $key, $value in $overflow-value {
+  .ovf-#{$key} { overflow: #{$value}; }
+  .ovf-x-#{$key} { overflow-x: #{$value}; }
+  .ovf-y-#{$key} { overflow-y: #{$value}; }
+};

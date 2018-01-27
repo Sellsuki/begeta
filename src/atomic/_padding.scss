@@ -1,9 +1,9 @@
 @for $i from 1 through 100 {
   .pd-#{$i}px { padding: #{$i}px; }
-  .pd-#{$i}px-top { padding-top: #{$i}px !important; }
-  .pd-#{$i}px-right { padding-right: #{$i}px !important; }
-  .pd-#{$i}px-left { padding-left: #{$i}px !important; }
-  .pd-#{$i}px-bottom { padding-left: #{$i}px !important; }
-  .pd-#{$i}px-vertical { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
-  .pd-#{$i}px-horizontal { padding-left: #{$i}px !important; padding-right: #{$i}px !important; }
+  .pd-t-#{$i}px { padding-top: #{$i}px !important; }
+  .pd-bt-#{$i}px { padding-left: #{$i}px !important; }
+  .pd-l-#{$i}px { padding-left: #{$i}px !important; }
+  .pd-r-#{$i}px { padding-right: #{$i}px !important; }
+  .pd-vtc-#{$i}px { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
+  .pd-hrzt-#{$i}px { padding-left: #{$i}px !important; padding-right: #{$i}px !important; }
 };

@@ -242,3 +242,13 @@ $line-height-value: (
   '275pct': 275%,
   '300pct': 300%
 );
+
+/* ============================
+  Overflow
+============================ */
+$overflow-value: (
+  'visible': visible,
+  'auto': auto,
+  'hidden': hidden,
+  'scroll': scroll
+);
