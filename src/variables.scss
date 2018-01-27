@@ -216,3 +216,14 @@ $background-position-value: (
   'center-left': center left,
   'center-right': center right 
 );
+
+/* ============================
+  White Space
+============================ */
+$white-space-value: (
+  'normal': normal,
+  'nowrap': nowrap,
+  'pre': pre,
+  'pre-line': pre-line,
+  'pre-wrap': pre-wrap
+);
