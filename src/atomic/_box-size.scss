@@ -1,0 +1,13 @@
+.w-auto { width: auto; }
+.h-auto { height: auto; }
+.m-w-auto { max-width: auto; }
+
+@for $i from 0 through 100 {
+  .w-#{$i}px { width: #{$i}px; }
+  .h-#{$i}px { height: #{$i}px; }
+  .m-w-#{$i}px { max-width: #{$i}px; }
+
+  .w-#{$i}pct { width: #{$i+'%'}; }
+  .h-#{$i}pct { height: #{$i+'%'}; }
+  .m-w-#{$i}pct { max-width: #{$i+'%'}; }
+};

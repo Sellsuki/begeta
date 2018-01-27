@@ -6,7 +6,7 @@
 .mg-vtc-auto { margin-top: auto !important; margin-bottom: auto !important; }
 .mg-hrzt-auto { margin-left: auto !important; margin-right: auto !important; }
 
-@for $i from 1 through 100 {
+@for $i from 0 through 100 {
   .mg-#{$i}px { margin: #{$i}px; }
   .mg-t-#{$i}px { margin-top: #{$i}px !important; }
   .mg-bt-#{$i}px { margin-bottom: #{$i}px !important; }

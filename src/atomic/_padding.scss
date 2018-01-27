@@ -6,7 +6,7 @@
 .pd-vtc-auto { padding-top: auto !important; padding-bottom: auto !important; }
 .pd-hrzt-auto { padding-left: auto !important; padding-right: auto !important; }
 
-@for $i from 1 through 100 {
+@for $i from 0 through 100 {
   .pd-#{$i}px { padding: #{$i}px; }
   .pd-t-#{$i}px { padding-top: #{$i}px !important; }
   .pd-bt-#{$i}px { padding-left: #{$i}px !important; }

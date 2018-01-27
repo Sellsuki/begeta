@@ -1,0 +1,11 @@
+.pst-static { position: static !important; }
+.pst-relative { position: relative !important; }
+.pst-absolute { position: absolute !important; }
+.pst-fixed   { position: fixed !important; }
+
+@for $i from 0 through 30 {
+  .t-#{$i}px { top: #{$i}px; }
+  .bt-#{$i}px { bottom: #{$i}px; }
+  .l-#{$i}px { left: #{$i}px; }
+  .r-#{$i}px { right: #{$i}px; }
+};
