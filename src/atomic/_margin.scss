@@ -1,9 +1,17 @@
+.mg-auto { margin: auto; }
+.mg-t-auto { margin-top: auto !important; }
+.mg-bt-auto { margin-bottom: auto !important; }
+.mg-l-auto { margin-left: auto !important; }
+.mg-r-auto { margin-right: auto !important; }
+.mg-vtc-auto { margin-top: auto !important; margin-bottom: auto !important; }
+.mg-hrzt-auto { margin-left: auto !important; margin-right: auto !important; }
+
 @for $i from 1 through 100 {
   .mg-#{$i}px { margin: #{$i}px; }
-  .mg-#{$i}px-top { margin-top: #{$i}px !important; }
-  .mg-#{$i}px-bottom { margin-bottom: #{$i}px !important; }
-  .mg-#{$i}px-right { margin-right: #{$i}px !important; }
-  .mg-#{$i}px-left { margin-left: #{$i}px !important; }
-  .mg-#{$i}px-vertical { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
-  .mg-#{$i}px-horizontal { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  .mg-t-#{$i}px { margin-top: #{$i}px !important; }
+  .mg-bt-#{$i}px { margin-bottom: #{$i}px !important; }
+  .mg-l-#{$i}px { margin-left: #{$i}px !important; }
+  .mg-r-#{$i}px { margin-right: #{$i}px !important; }
+  .mg-vtc-#{$i}px { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+  .mg-hrzt-#{$i}px { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
 };

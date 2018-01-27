@@ -1,3 +1,11 @@
+.pd-auto { padding: auto; }
+.pd-t-auto { padding-top: auto !important; }
+.pd-bt-auto { padding-left: auto !important; }
+.pd-l-auto { padding-left: auto !important; }
+.pd-r-auto { padding-right: auto !important; }
+.pd-vtc-auto { padding-top: auto !important; padding-bottom: auto !important; }
+.pd-hrzt-auto { padding-left: auto !important; padding-right: auto !important; }
+
 @for $i from 1 through 100 {
   .pd-#{$i}px { padding: #{$i}px; }
   .pd-t-#{$i}px { padding-top: #{$i}px !important; }
