@@ -189,3 +189,30 @@ $border-radius-width-value: (
   '25px': 25px,
   '30px': 30px
 );
+
+/* ============================
+  Background Repeat
+============================ */
+$background-repeat-value: (
+  'repeat': repeat,
+  'repeat-x': repeat-x,
+  'repeat-y': repeat-y,
+  'no-repeat': no-repeat,
+  'space': space,
+  'round': round
+);
+
+/* ============================
+  Background Position
+============================ */
+$background-position-value: (
+  'top': top,
+  'top-left': top left,
+  'top-right': top right,
+  'bottom': bottom,
+  'bottom-left': bottom left,
+  'bottom-right': bottom right,
+  'center': center,
+  'center-left': center left,
+  'center-right': center right 
+);
