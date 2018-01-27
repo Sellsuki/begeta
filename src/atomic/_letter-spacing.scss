@@ -1,0 +1,3 @@
+@for $i from 8 through 40 {
+  .lt-spc-#{$i}px { letter-spacing: #{$i}px; }
+};

@@ -1,6 +1,6 @@
 @for $i from 1 through 9 {
-  .fw-#{$i*100} { font-weight: #{$i*100} !important; }
+  .f-w-#{$i*100} { font-weight: #{$i*100} !important; }
 };
 
-.fw-bold { font-weight: 900 !important; }
-.fw-normal { font-weight: 100 !important; }
+.f-w-bold { font-weight: 900 !important; }
+.f-w-normal { font-weight: 100 !important; }

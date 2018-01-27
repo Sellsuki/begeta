@@ -227,3 +227,18 @@ $white-space-value: (
   'pre-line': pre-line,
   'pre-wrap': pre-wrap
 );
+
+/* ============================
+  Line Height
+============================ */
+$line-height-value: (
+  '100pct': 100%,
+  '125pct': 125%,
+  '150pct': 150%,
+  '175pct': 175%,
+  '200pct': 200%,
+  '225pct': 225%,
+  '250pct': 250%,
+  '275pct': 275%,
+  '300pct': 300%
+);
