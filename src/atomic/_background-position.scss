@@ -1,0 +1,3 @@
+@each $key, $value in $background-position-value {
+  .bg-pst-#{$key} { background-position: #{$value} }
+}

@@ -189,3 +189,66 @@ $border-radius-width-value: (
   '25px': 25px,
   '30px': 30px
 );
+
+/* ============================
+  Background Repeat
+============================ */
+$background-repeat-value: (
+  'repeat': repeat,
+  'repeat-x': repeat-x,
+  'repeat-y': repeat-y,
+  'no-repeat': no-repeat,
+  'space': space,
+  'round': round
+);
+
+/* ============================
+  Background Position
+============================ */
+$background-position-value: (
+  'top': top,
+  'top-left': top left,
+  'top-right': top right,
+  'bottom': bottom,
+  'bottom-left': bottom left,
+  'bottom-right': bottom right,
+  'center': center,
+  'center-left': center left,
+  'center-right': center right 
+);
+
+/* ============================
+  White Space
+============================ */
+$white-space-value: (
+  'normal': normal,
+  'nowrap': nowrap,
+  'pre': pre,
+  'pre-line': pre-line,
+  'pre-wrap': pre-wrap
+);
+
+/* ============================
+  Line Height
+============================ */
+$line-height-value: (
+  '100pct': 100%,
+  '125pct': 125%,
+  '150pct': 150%,
+  '175pct': 175%,
+  '200pct': 200%,
+  '225pct': 225%,
+  '250pct': 250%,
+  '275pct': 275%,
+  '300pct': 300%
+);
+
+/* ============================
+  Overflow
+============================ */
+$overflow-value: (
+  'visible': visible,
+  'auto': auto,
+  'hidden': hidden,
+  'scroll': scroll
+);

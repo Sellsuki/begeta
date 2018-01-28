@@ -1,0 +1,3 @@
+@each $key, $value in $line-height-value {
+  .l-h-#{$key} { line-height: #{$value}; }
+};

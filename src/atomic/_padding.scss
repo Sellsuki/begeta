@@ -1,9 +1,17 @@
-@for $i from 1 through 100 {
+.pd-auto { padding: auto; }
+.pd-t-auto { padding-top: auto !important; }
+.pd-bt-auto { padding-left: auto !important; }
+.pd-l-auto { padding-left: auto !important; }
+.pd-r-auto { padding-right: auto !important; }
+.pd-vtc-auto { padding-top: auto !important; padding-bottom: auto !important; }
+.pd-hrzt-auto { padding-left: auto !important; padding-right: auto !important; }
+
+@for $i from 0 through 100 {
   .pd-#{$i}px { padding: #{$i}px; }
-  .pd-#{$i}px-top { padding-top: #{$i}px !important; }
-  .pd-#{$i}px-right { padding-right: #{$i}px !important; }
-  .pd-#{$i}px-left { padding-left: #{$i}px !important; }
-  .pd-#{$i}px-bottom { padding-left: #{$i}px !important; }
-  .pd-#{$i}px-vertical { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
-  .pd-#{$i}px-horizontal { padding-left: #{$i}px !important; padding-right: #{$i}px !important; }
+  .pd-t-#{$i}px { padding-top: #{$i}px !important; }
+  .pd-bt-#{$i}px { padding-left: #{$i}px !important; }
+  .pd-l-#{$i}px { padding-left: #{$i}px !important; }
+  .pd-r-#{$i}px { padding-right: #{$i}px !important; }
+  .pd-vtc-#{$i}px { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
+  .pd-hrzt-#{$i}px { padding-left: #{$i}px !important; padding-right: #{$i}px !important; }
 };
