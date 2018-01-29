@@ -105,12 +105,9 @@ $display-value: (
 /* ============================
   Breakpoints Variable
 ============================ */
-$breakpoint-value: (
-  'mobile': 768px,
-  'tablet': 1023px,
-  'desktop': 1215px,
-  'widescreen': 9999px
-);
+$breakpoint-tablet: 769px !default;
+$breakpoint-desktop: 1024px !default;
+$breakpoint-widescreen: 1216px !default;
 
 /* ============================
   Justify && Align Items
