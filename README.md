@@ -7,6 +7,7 @@
 - [Scss guide](http://sass-lang.com/guide)
 - [Inspiration](https://github.com/BioMaRu/biomatic)
 - [Standard](http://design.sellsuki.com/atomic/flexdirection/)
+- [Mobile First](https://zellwk.com/blog/how-to-write-mobile-first-css/)
 
 
 ## Syncing a fork to sellsuki/begeta
