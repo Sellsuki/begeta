@@ -2,3 +2,45 @@
 .t-tf-lowercase {text-transform: lowercase; }
 .t-tf-uppercase {text-transform: uppercase; }
 .t-tf-none {text-transform: none; }
+
+@include mobile {
+  .t-tf-capitalize-mobile {text-transform: capitalize; }
+  .t-tf-lowercase-mobile {text-transform: lowercase; }
+  .t-tf-uppercase-mobile {text-transform: uppercase; }
+  .t-tf-none-mobile {text-transform: none; }
+};
+
+@include tablet {
+  .t-tf-capitalize-tablet {text-transform: capitalize; }
+  .t-tf-lowercase-tablet {text-transform: lowercase; }
+  .t-tf-uppercase-tablet {text-transform: uppercase; }
+  .t-tf-none-tablet {text-transform: none; }
+};
+
+@include tablet-only {
+  .t-tf-capitalize-tablet-only {text-transform: capitalize; }
+  .t-tf-lowercase-tablet-only {text-transform: lowercase; }
+  .t-tf-uppercase-tablet-only {text-transform: uppercase; }
+  .t-tf-none-tablet-only {text-transform: none; }
+};
+
+@include desktop {
+  .t-tf-capitalize-desktop {text-transform: capitalize; }
+  .t-tf-lowercase-desktop {text-transform: lowercase; }
+  .t-tf-uppercase-desktop {text-transform: uppercase; }
+  .t-tf-none-desktop {text-transform: none; }
+};
+
+@include desktop-only {
+  .t-tf-capitalize-desktop-only {text-transform: capitalize; }
+  .t-tf-lowercase-desktop-only {text-transform: lowercase; }
+  .t-tf-uppercase-desktop-only {text-transform: uppercase; }
+  .t-tf-none-desktop-only {text-transform: none; }
+};
+
+@include widescreen {
+  .t-tf-capitalize-widescreen {text-transform: capitalize; }
+  .t-tf-lowercase-widescreen {text-transform: lowercase; }
+  .t-tf-uppercase-widescreen {text-transform: uppercase; }
+  .t-tf-none-widescreen {text-transform: none; }
+};
