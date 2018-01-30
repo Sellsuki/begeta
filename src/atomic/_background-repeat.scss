@@ -1,3 +1,39 @@
 @each $key, $value in $background-repeat-value {
   .bg-rp-#{$key} { background-repeat: #{$value}; }
 }
+
+@include mobile {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-mobile { background-repeat: #{$value}; }
+  };
+}
+
+@include tablet {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-tablet { background-repeat: #{$value}; }
+  };
+}
+
+@include tablet-only {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-tablet-only { background-repeat: #{$value}; }
+  };
+}
+
+@include desktop {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-desktop { background-repeat: #{$value}; }
+  }; 
+}
+
+@include desktop-only {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-desktop-only { background-repeat: #{$value}; }
+  }; 
+}
+
+@include widescreen {
+  @each $key, $value in $background-repeat-value {
+    .bg-rp-#{$key}-widescreen { background-repeat: #{$value}; }
+  };
+}

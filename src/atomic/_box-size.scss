@@ -11,3 +11,99 @@
   .h-#{$i}pct { height: #{$i+'%'}; }
   .m-w-#{$i}pct { max-width: #{$i+'%'}; }
 };
+
+@include mobile {
+  .w-auto-mobile { width: auto; }
+  .h-auto-mobile { height: auto; }
+  .m-w-auto-mobile { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-mobile { width: #{$i}px; }
+    .h-#{$i}px-mobile { height: #{$i}px; }
+    .m-w-#{$i}px-mobile { max-width: #{$i}px; }
+
+    .w-#{$i}pct-mobile { width: #{$i+'%'}; }
+    .h-#{$i}pct-mobile { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-mobile { max-width: #{$i+'%'}; }
+  };
+};
+
+@include tablet {
+  .w-auto-tablet { width: auto; }
+  .h-auto-tablet { height: auto; }
+  .m-w-auto-tablet { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-tablet { width: #{$i}px; }
+    .h-#{$i}px-tablet { height: #{$i}px; }
+    .m-w-#{$i}px-tablet { max-width: #{$i}px; }
+
+    .w-#{$i}pct-tablet { width: #{$i+'%'}; }
+    .h-#{$i}pct-tablet { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-tablet { max-width: #{$i+'%'}; }
+  };
+};
+
+@include tablet-only {
+  .w-auto-tablet-only { width: auto; }
+  .h-auto-tablet-only { height: auto; }
+  .m-w-auto-tablet-only { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-tablet-only { width: #{$i}px; }
+    .h-#{$i}px-tablet-only { height: #{$i}px; }
+    .m-w-#{$i}px-tablet-only { max-width: #{$i}px; }
+
+    .w-#{$i}pct-tablet-only { width: #{$i+'%'}; }
+    .h-#{$i}pct-tablet-only { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-tablet-only { max-width: #{$i+'%'}; }
+  };
+};
+
+@include desktop {
+  .w-auto-desktop { width: auto; }
+  .h-auto-desktop { height: auto; }
+  .m-w-auto-desktop { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-desktop { width: #{$i}px; }
+    .h-#{$i}px-desktop { height: #{$i}px; }
+    .m-w-#{$i}px-desktop { max-width: #{$i}px; }
+
+    .w-#{$i}pct-desktop { width: #{$i+'%'}; }
+    .h-#{$i}pct-desktop { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-desktop { max-width: #{$i+'%'}; }
+  };
+};
+
+@include desktop-only {
+  .w-auto-desktop-only { width: auto; }
+  .h-auto-desktop-only { height: auto; }
+  .m-w-auto-desktop-only { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-desktop-only { width: #{$i}px; }
+    .h-#{$i}px-desktop-only { height: #{$i}px; }
+    .m-w-#{$i}px-desktop-only { max-width: #{$i}px; }
+
+    .w-#{$i}pct-desktop-only { width: #{$i+'%'}; }
+    .h-#{$i}pct-desktop-only { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-desktop-only { max-width: #{$i+'%'}; }
+  };
+};
+
+@include widescreen {
+  .w-auto-widescreen { width: auto; }
+  .h-auto-widescreen { height: auto; }
+  .m-w-auto-widescreen { max-width: auto; }
+
+  @for $i from 0 through 100 {
+    .w-#{$i}px-widescreen { width: #{$i}px; }
+    .h-#{$i}px-widescreen { height: #{$i}px; }
+    .m-w-#{$i}px-widescreen { max-width: #{$i}px; }
+
+    .w-#{$i}pct-widescreen { width: #{$i+'%'}; }
+    .h-#{$i}pct-widescreen { height: #{$i+'%'}; }
+    .m-w-#{$i}pct-widescreen { max-width: #{$i+'%'}; }
+  };
+};

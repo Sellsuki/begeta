@@ -4,3 +4,57 @@
 
 .f-w-bold { font-weight: 900 !important; }
 .f-w-normal { font-weight: 100 !important; }
+
+@include mobile {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-mobile { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-mobile { font-weight: 900 !important; }
+  .f-w-normal-mobile { font-weight: 100 !important; }
+};
+
+@include tablet {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-tablet { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-tablet { font-weight: 900 !important; }
+  .f-w-normal-tablet { font-weight: 100 !important; }
+};
+
+@include tablet-only {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-ablet-only { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-ablet-only { font-weight: 900 !important; }
+  .f-w-normal-ablet-only { font-weight: 100 !important; }
+};
+
+@include desktop {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-desktop { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-desktop { font-weight: 900 !important; }
+  .f-w-normal-desktop { font-weight: 100 !important; }
+};
+
+@include desktop-only {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-desktop-only { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-desktop-only { font-weight: 900 !important; }
+  .f-w-normal-desktop-only { font-weight: 100 !important; }
+};
+
+@include widescreen {
+  @for $i from 1 through 9 {
+    .f-w-#{$i*100}-widescreen { font-weight: #{$i*100} !important; }
+  };
+  
+  .f-w-bold-widescreen { font-weight: 900 !important; }
+  .f-w-normal-widescreen { font-weight: 100 !important; }
+};

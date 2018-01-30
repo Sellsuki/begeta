@@ -1,3 +1,39 @@
 .f-left { float: left !important; }
 .f-right { float: right !important; }
 .f-none { float: none !important; }
+
+@include mobile {
+  .f-left-mobile { float: left !important; }
+  .f-right-mobile { float: right !important; }
+  .f-none-mobile { float: none !important; }
+};
+
+@include tablet {
+  .f-left-tablet { float: left !important; }
+  .f-right-tablet { float: right !important; }
+  .f-none-tablet { float: none !important; }
+};
+
+@include tablet-only {
+  .f-left-tablet-only { float: left !important; }
+  .f-right-tablet-only { float: right !important; }
+  .f-none-tablet-only { float: none !important; }
+};
+
+@include desktop {
+  .f-left-desktop { float: left !important; }
+  .f-right-desktop { float: right !important; }
+  .f-none-desktop { float: none !important; }
+};
+
+@include desktop-only {
+  .f-left-desktop-only { float: left !important; }
+  .f-right-desktop-only { float: right !important; }
+  .f-none-desktop-only { float: none !important; }
+};
+
+@include widescreen {
+  .f-left-widescreen { float: left !important; }
+  .f-right-widescreen { float: right !important; }
+  .f-none-widescreen { float: none !important; }
+};

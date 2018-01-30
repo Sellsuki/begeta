@@ -3,3 +3,51 @@
   .ovf-x-#{$key} { overflow-x: #{$value}; }
   .ovf-y-#{$key} { overflow-y: #{$value}; }
 };
+
+@include mobile {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-mobile { overflow: #{$value}; }
+    .ovf-x-#{$key}-mobile { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-mobile { overflow-y: #{$value}; }
+  };
+};
+
+@include tablet {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-tablet { overflow: #{$value}; }
+    .ovf-x-#{$key}-tablet { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-tablet { overflow-y: #{$value}; }
+  };
+};
+
+@include tablet-only {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-tablet-only { overflow: #{$value}; }
+    .ovf-x-#{$key}-tablet-only { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-tablet-only { overflow-y: #{$value}; }
+  };
+};
+
+@include desktop {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-desktop { overflow: #{$value}; }
+    .ovf-x-#{$key}-desktop { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-desktop { overflow-y: #{$value}; }
+  };
+};
+
+@include desktop-only {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-desktop-only { overflow: #{$value}; }
+    .ovf-x-#{$key}-desktop-only { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-desktop-only { overflow-y: #{$value}; }
+  };
+};
+
+@include widescreen {
+  @each $key, $value in $overflow-value {
+    .ovf-#{$key}-widescreen { overflow: #{$value}; }
+    .ovf-x-#{$key}-widescreen { overflow-x: #{$value}; }
+    .ovf-y-#{$key}-widescreen { overflow-y: #{$value}; }
+  };
+};

@@ -1,3 +1,39 @@
 @each $key, $value in $border-style-value {
   .bd-st-#{$key} { border-style: #{$value} !important; }
 };
+
+@include mobile {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-mobile { border-style: #{$value} !important; }
+  };
+};
+
+@include tablet {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-tablet { border-style: #{$value} !important; }
+  };
+};
+
+@include tablet-only {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-tablet-only { border-style: #{$value} !important; }
+  };
+};
+
+@include desktop {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-desktop { border-style: #{$value} !important; }
+  };
+};
+
+@include desktop-only {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-desktop-only { border-style: #{$value} !important; }
+  };
+};
+
+@include widescreen {
+  @each $key, $value in $border-style-value {
+    .bd-st-#{$key}-widescreen { border-style: #{$value} !important; }
+  };
+};

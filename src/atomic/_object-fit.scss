@@ -2,3 +2,45 @@
 .oj-f-contain { object-fit: contain !important; }
 .oj-f-fill { object-fit: fill !important; }
 .oj-f-none { object-fit: none !important; }
+
+@include mobile {
+  .oj-f-cover-mobile { object-fit: cover !important; }
+  .oj-f-contain-mobile { object-fit: contain !important; }
+  .oj-f-fill-mobile { object-fit: fill !important; }
+  .oj-f-none-mobile { object-fit: none !important; }
+};
+
+@include tablet {
+  .oj-f-cover-tablet { object-fit: cover !important; }
+  .oj-f-contain-tablet { object-fit: contain !important; }
+  .oj-f-fill-tablet { object-fit: fill !important; }
+  .oj-f-none-tablet { object-fit: none !important; }
+};
+
+@include tablet-only {
+  .oj-f-cover-tablet-only { object-fit: cover !important; }
+  .oj-f-contain-tablet-only { object-fit: contain !important; }
+  .oj-f-fill-tablet-only { object-fit: fill !important; }
+  .oj-f-none-tablet-only { object-fit: none !important; }
+};
+
+@include desktop {
+  .oj-f-cover-desktop { object-fit: cover !important; }
+  .oj-f-contain-desktop { object-fit: contain !important; }
+  .oj-f-fill-desktop { object-fit: fill !important; }
+  .oj-f-none-desktop { object-fit: none !important; }
+};
+
+@include desktop-only {
+  .oj-f-cover-desktop-only { object-fit: cover !important; }
+  .oj-f-contain-desktop-only { object-fit: contain !important; }
+  .oj-f-fill-desktop-only { object-fit: fill !important; }
+  .oj-f-none-desktop-only { object-fit: none !important; }
+};
+
+@include widescreen {
+  .oj-f-cover-widescreen { object-fit: cover !important; }
+  .oj-f-contain-widescreen { object-fit: contain !important; }
+  .oj-f-fill-widescreen { object-fit: fill !important; }
+  .oj-f-none-widescreen { object-fit: none !important; }
+};

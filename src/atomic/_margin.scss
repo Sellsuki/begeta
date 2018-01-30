@@ -15,3 +15,123 @@
   .mg-vtc-#{$i}px { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
   .mg-hrzt-#{$i}px { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
 };
+
+@include mobile {
+  .mg-auto-mobile { margin: auto; }
+  .mg-t-auto-mobile { margin-top: auto !important; }
+  .mg-bt-auto-mobile { margin-bottom: auto !important; }
+  .mg-l-auto-mobile { margin-left: auto !important; }
+  .mg-r-auto-mobile { margin-right: auto !important; }
+  .mg-vtc-auto-mobile { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-mobile { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-mobile { margin: #{$i}px; }
+    .mg-t-#{$i}px-mobile { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-mobile { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-mobile { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-mobile { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-mobile { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-mobile { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};
+
+@include tablet {
+  .mg-auto-tablet { margin: auto; }
+  .mg-t-auto-tablet { margin-top: auto !important; }
+  .mg-bt-auto-tablet { margin-bottom: auto !important; }
+  .mg-l-auto-tablet { margin-left: auto !important; }
+  .mg-r-auto-tablet { margin-right: auto !important; }
+  .mg-vtc-auto-tablet { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-tablet { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-tablet { margin: #{$i}px; }
+    .mg-t-#{$i}px-tablet { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-tablet { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-tablet { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-tablet { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-tablet { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-tablet { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};
+
+@include tablet-only {
+  .mg-auto-tablet-only { margin: auto; }
+  .mg-t-auto-tablet-only { margin-top: auto !important; }
+  .mg-bt-auto-tablet-only { margin-bottom: auto !important; }
+  .mg-l-auto-tablet-only { margin-left: auto !important; }
+  .mg-r-auto-tablet-only { margin-right: auto !important; }
+  .mg-vtc-auto-tablet-only { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-tablet-only { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-tablet-only { margin: #{$i}px; }
+    .mg-t-#{$i}px-tablet-only { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-tablet-only { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-tablet-only { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-tablet-only { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-tablet-only { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-tablet-only { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};
+
+@include desktop {
+  .mg-auto-desktop { margin: auto; }
+  .mg-t-auto-desktop { margin-top: auto !important; }
+  .mg-bt-auto-desktop { margin-bottom: auto !important; }
+  .mg-l-auto-desktop { margin-left: auto !important; }
+  .mg-r-auto-desktop { margin-right: auto !important; }
+  .mg-vtc-auto-desktop { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-desktop { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-desktop { margin: #{$i}px; }
+    .mg-t-#{$i}px-desktop { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-desktop { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-desktop { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-desktop { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-desktop { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-desktop { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};
+
+@include desktop-only {
+  .mg-auto-desktop-only { margin: auto; }
+  .mg-t-auto-desktop-only { margin-top: auto !important; }
+  .mg-bt-auto-desktop-only { margin-bottom: auto !important; }
+  .mg-l-auto-desktop-only { margin-left: auto !important; }
+  .mg-r-auto-desktop-only { margin-right: auto !important; }
+  .mg-vtc-auto-desktop-only { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-desktop-only { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-desktop-only { margin: #{$i}px; }
+    .mg-t-#{$i}px-desktop-only { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-desktop-only { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-desktop-only { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-desktop-only { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-desktop-only { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-desktop-only { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};
+
+@include widescreen {
+  .mg-auto-widescreen { margin: auto; }
+  .mg-t-auto-widescreen { margin-top: auto !important; }
+  .mg-bt-auto-widescreen { margin-bottom: auto !important; }
+  .mg-l-auto-widescreen { margin-left: auto !important; }
+  .mg-r-auto-widescreen { margin-right: auto !important; }
+  .mg-vtc-auto-widescreen { margin-top: auto !important; margin-bottom: auto !important; }
+  .mg-hrzt-auto-widescreen { margin-left: auto !important; margin-right: auto !important; }
+  
+  @for $i from 0 through 100 {
+    .mg-#{$i}px-widescreen { margin: #{$i}px; }
+    .mg-t-#{$i}px-widescreen { margin-top: #{$i}px !important; }
+    .mg-bt-#{$i}px-widescreen { margin-bottom: #{$i}px !important; }
+    .mg-l-#{$i}px-widescreen { margin-left: #{$i}px !important; }
+    .mg-r-#{$i}px-widescreen { margin-right: #{$i}px !important; }
+    .mg-vtc-#{$i}px-widescreen { margin-top: #{$i}px !important; margin-bottom: #{$i}px !important; }
+    .mg-hrzt-#{$i}px-widescreen { margin-left: #{$i}px !important; margin-right: #{$i}px !important; }
+  };
+};

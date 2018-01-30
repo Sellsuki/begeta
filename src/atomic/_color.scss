@@ -1,3 +1,39 @@
 @each $key, $value in $color-value {
   .cl-#{$key} { color: #{$value} !important; }
 };
+
+@include mobile {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-mobile { color: #{$value} !important; }
+  };
+};
+
+@include tablet {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-tablet { color: #{$value} !important; }
+  };
+};
+
+@include tablet-only {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-tablet-only { color: #{$value} !important; }
+  };
+};
+
+@include desktop {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-desktop { color: #{$value} !important; }
+  };
+};
+
+@include desktop-only {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-desktop-only { color: #{$value} !important; }
+  };
+};
+
+@include widescreen {
+  @each $key, $value in $color-value {
+    .cl-#{$key}-widescreen { color: #{$value} !important; }
+  };
+};

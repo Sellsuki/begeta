@@ -1,11 +1,39 @@
-.opct-100 { opacity: 1 !important; }
-.opct-90  { opacity: .9 !important; }
-.opct-80  { opacity: .8 !important; }
-.opct-70  { opacity: .7 !important; }
-.opct-60  { opacity: .6 !important; }
-.opct-50  { opacity: .5 !important; }
-.opct-40  { opacity: .4 !important; }
-.opct-30  { opacity: .3 !important; }
-.opct-20  { opacity: .2 !important; }
-.opct-10  { opacity: .1 !important; }
-.opct-0   { opacity: 0;  }
+@for $i from 0 through 10 {
+  .opct-#{$i * 10}  { opacity: #{$i / 10} !important; }
+};
+
+@include mobile {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-mobile  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include tablet {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-tablet  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include tablet-only {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-tablet-only  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include desktop {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-desktop  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include desktop-only {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-desktop-only  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include widescreen {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-widescreen  { opacity: #{$i / 10} !important; }
+  };
+};

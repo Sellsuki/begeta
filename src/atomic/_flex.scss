@@ -1,9 +1,39 @@
-.flx-1 { flex: 1 !important; }
-.flx-2 { flex: 2 !important; }
-.flx-3 { flex: 3 !important; }
-.flx-4 { flex: 4 !important; }
-.flx-5 { flex: 5 !important; }
-.flx-6 { flex: 6 !important; }
-.flx-7 { flex: 7 !important; }
-.flx-8 { flex: 8 !important; }
-.flx-9 { flex: 9 !important; }
+@for $i from 1 through 9 {
+  .flx-#{$i} { flex: #{$i} !important; }
+};
+
+@include mobile {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-mobile { flex: #{$i} !important; }
+  };
+};
+
+@include tablet {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-tablet { flex: #{$i} !important; }
+  };
+};
+
+@include tablet-only {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-tablet-only { flex: #{$i} !important; }
+  };
+};
+
+@include desktop {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-desktop { flex: #{$i} !important; }
+  };
+};
+
+@include desktop-only {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-desktop-only { flex: #{$i} !important; }
+  };
+};
+
+@include widescreen {
+  @for $i from 1 through 9 {
+    .flx-#{$i}-widescreen { flex: #{$i} !important; }
+  };
+};

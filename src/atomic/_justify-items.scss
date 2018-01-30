@@ -1,3 +1,39 @@
 @each $key, $value in $justify-align-items-value {
   .jtf-it-#{$key} { justify-items: #{$value} !important; }
 };
+
+@include mobile {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-mobile { justify-items: #{$value} !important; }
+  };
+};
+
+@include tablet {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-tablet { justify-items: #{$value} !important; }
+  };
+};
+
+@include tablet-only {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-tablet-only { justify-items: #{$value} !important; }
+  };
+};
+
+@include desktop {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-desktop { justify-items: #{$value} !important; }
+  };
+};
+
+@include desktop-only {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-desktop-only { justify-items: #{$value} !important; }
+  };
+};
+
+@include widescreen {
+  @each $key, $value in $justify-align-items-value {
+    .jtf-it-#{$key}-widescreen { justify-items: #{$value} !important; }
+  };
+};
