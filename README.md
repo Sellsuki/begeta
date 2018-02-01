@@ -3,11 +3,11 @@
 </p>
 
 # Begeta Prototype
-- [Github](https://github.com/Sellsuki/begeta)
+- [Github Repository](https://github.com/Sellsuki/begeta)
 - [SCSS guide](http://sass-lang.com/guide)
+- [Standard guide](http://design.sellsuki.com/atomic/flexdirection/)
+- [Mobile first guide](https://zellwk.com/blog/how-to-write-mobile-first-css/)
 - [Inspiration](https://github.com/BioMaRu/biomatic)
-- [Standard](http://design.sellsuki.com/atomic/flexdirection/)
-- [Mobile First](https://zellwk.com/blog/how-to-write-mobile-first-css/)
 
 ## Syncing a fork to sellsuki/begeta
 ### Command line step
