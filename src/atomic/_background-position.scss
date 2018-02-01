@@ -1,39 +1,39 @@
 @each $key, $value in $background-position-value {
-  .bg-pst-#{$key} { background-position: #{$value} }
+  .bg-pst-#{$key} { background-position: #{$value} !important; }
 }
 
 @include mobile {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-mobile { background-position: #{$value} }
+    .bg-pst-#{$key}-mobile { background-position: #{$value} !important; }
   };
 }
 
 @include tablet {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-tablet { background-position: #{$value} }
+    .bg-pst-#{$key}-tablet { background-position: #{$value} !important; }
   };
 }
 
 @include tablet-only {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-tablet-only { background-position: #{$value} }
+    .bg-pst-#{$key}-tablet-only { background-position: #{$value} !important; }
   };
 }
 
 @include desktop {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-desktop { background-position: #{$value} }
+    .bg-pst-#{$key}-desktop { background-position: #{$value} !important; }
   };
 }
 
 @include desktop-only {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-desktop-only { background-position: #{$value} }
+    .bg-pst-#{$key}-desktop-only { background-position: #{$value} !important; }
   };
 }
 
 @include widescreen {
   @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-widescreen { background-position: #{$value} }
+    .bg-pst-#{$key}-widescreen { background-position: #{$value} !important; }
   };
 }

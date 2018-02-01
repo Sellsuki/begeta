@@ -1,32 +1,32 @@
-.bg-s-cover { background-size: cover; }
-.bg-s-contain { background-size: contain; }
+.bg-s-cover { background-size: cover !important; }
+.bg-s-contain { background-size: contain !important; }
 
 @include mobile {
-  .bg-s-cover-mobile { background-size: cover; }
-  .bg-s-contain-mobile { background-size: contain; }
+  .bg-s-cover-mobile { background-size: cover !important; }
+  .bg-s-contain-mobile { background-size: contain !important; }
 }
 
 @include tablet {
-  .bg-s-cover-tablet { background-size: cover; }
-  .bg-s-contain-tablet { background-size: contain; }
+  .bg-s-cover-tablet { background-size: cover !important; }
+  .bg-s-contain-tablet { background-size: contain !important; }
 }
 
 @include tablet-only {
-  .bg-s-cover-tablet-only { background-size: cover; }
-  .bg-s-contain-tablet-only { background-size: contain; }
+  .bg-s-cover-tablet-only { background-size: cover !important; }
+  .bg-s-contain-tablet-only { background-size: contain !important; }
 }
 
 @include desktop {
-  .bg-s-cover-desktop { background-size: cover; }
-  .bg-s-contain-desktop { background-size: contain; }
+  .bg-s-cover-desktop { background-size: cover !important; }
+  .bg-s-contain-desktop { background-size: contain !important; }
 }
 
 @include desktop-only {
-  .bg-s-cover-desktop-only { background-size: cover; }
-  .bg-s-contain-desktop-only { background-size: contain; }
+  .bg-s-cover-desktop-only { background-size: cover !important; }
+  .bg-s-contain-desktop-only { background-size: contain !important; }
 }
 
 @include widescreen {
-  .bg-s-cover-widescreen { background-size: cover; }
-  .bg-s-contain-widescreen { background-size: contain; }
+  .bg-s-cover-widescreen { background-size: cover !important; }
+  .bg-s-contain-widescreen { background-size: contain !important; }
 }
