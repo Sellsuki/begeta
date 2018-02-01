@@ -1,39 +1,39 @@
 @each $key, $value in $color-value {
-  .bd-cl-#{$key} { border-color: #{$value}; }
+  .bd-cl-#{$key} { border-color: #{$value} !important; }
 }
 
 @include mobile {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-mobile { border-color: #{$value}; }
+    .bd-cl-#{$key}-mobile { border-color: #{$value} !important; }
   }
 }
 
 @include tablet {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-tablet { border-color: #{$value}; }
+    .bd-cl-#{$key}-tablet { border-color: #{$value} !important; }
   } 
 }
 
 @include tablet-only {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-tablet-only { border-color: #{$value}; }
+    .bd-cl-#{$key}-tablet-only { border-color: #{$value} !important; }
   } 
 }
 
 @include desktop {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-desktop { border-color: #{$value}; }
+    .bd-cl-#{$key}-desktop { border-color: #{$value} !important; }
   }
 }
 
 @include desktop-only {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-desktop-only { border-color: #{$value}; }
+    .bd-cl-#{$key}-desktop-only { border-color: #{$value} !important; }
   }
 }
 
 @include widescreen {
   @each $key, $value in $color-value {
-    .bd-cl-#{$key}-widescreen { border-color: #{$value}; }
+    .bd-cl-#{$key}-widescreen { border-color: #{$value} !important; }
   }
 }
