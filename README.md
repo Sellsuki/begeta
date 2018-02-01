@@ -4,11 +4,10 @@
 
 # Begeta Prototype
 - [Github](https://github.com/Sellsuki/begeta)
-- [Scss guide](http://sass-lang.com/guide)
+- [SCSS guide](http://sass-lang.com/guide)
 - [Inspiration](https://github.com/BioMaRu/biomatic)
 - [Standard](http://design.sellsuki.com/atomic/flexdirection/)
 - [Mobile First](https://zellwk.com/blog/how-to-write-mobile-first-css/)
-
 
 ## Syncing a fork to sellsuki/begeta
 ### Command line step
