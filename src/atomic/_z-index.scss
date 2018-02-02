@@ -1,46 +1,46 @@
-.z-id-auto { z-index: auto; }
-.z-id-1 { z-index: 1; }
-.z-id-0 { z-index: 0; }
-.z-id--1 { z-index: -1; }
+.z-id-auto { z-index: auto !important; }
+.z-id-1 { z-index: 1 !important; }
+.z-id-0 { z-index: 0 !important; }
+.z-id--1 { z-index: -1 !important; }
 
 @include mobile {
-  .z-id-auto-mobile { z-index: auto; }
-  .z-id-1-mobile { z-index: 1; }
-  .z-id-0-mobile { z-index: 0; }
-  .z-id--1-mobile { z-index: -1; }
+  .z-id-auto-mobile { z-index: auto !important; }
+  .z-id-1-mobile { z-index: 1 !important; }
+  .z-id-0-mobile { z-index: 0 !important; }
+  .z-id--1-mobile { z-index: -1 !important; }
 };
 
 @include tablet {
-  .z-id-auto-tablet { z-index: auto; }
-  .z-id-1-tablet { z-index: 1; }
-  .z-id-0-tablet { z-index: 0; }
-  .z-id--1-tablet { z-index: -1; }
+  .z-id-auto-tablet { z-index: auto !important; }
+  .z-id-1-tablet { z-index: 1 !important; }
+  .z-id-0-tablet { z-index: 0 !important; }
+  .z-id--1-tablet { z-index: -1 !important; }
 };
 
 @include tablet-only {
-  .z-id-auto-tablet-only { z-index: auto; }
-  .z-id-1-tablet-only { z-index: 1; }
-  .z-id-0-tablet-only { z-index: 0; }
-  .z-id--1-tablet-only { z-index: -1; }
+  .z-id-auto-tablet-only { z-index: auto !important; }
+  .z-id-1-tablet-only { z-index: 1 !important; }
+  .z-id-0-tablet-only { z-index: 0 !important; }
+  .z-id--1-tablet-only { z-index: -1 !important; }
 };
 
 @include desktop {
-  .z-id-auto-desktop { z-index: auto; }
-  .z-id-1-desktop { z-index: 1; }
-  .z-id-0-desktop { z-index: 0; }
-  .z-id--1-desktop { z-index: -1; }
+  .z-id-auto-desktop { z-index: auto !important; }
+  .z-id-1-desktop { z-index: 1 !important; }
+  .z-id-0-desktop { z-index: 0 !important; }
+  .z-id--1-desktop { z-index: -1 !important; }
 };
 
 @include desktop-only {
-  .z-id-auto-desktop-only { z-index: auto; }
-  .z-id-1-desktop-only { z-index: 1; }
-  .z-id-0-desktop-only { z-index: 0; }
-  .z-id--1-desktop-only { z-index: -1; }
+  .z-id-auto-desktop-only { z-index: auto !important; }
+  .z-id-1-desktop-only { z-index: 1 !important; }
+  .z-id-0-desktop-only { z-index: 0 !important; }
+  .z-id--1-desktop-only { z-index: -1 !important; }
 };
 
 @include widescreen {
-  .z-id-auto-widescreen { z-index: auto; }
-  .z-id-1-widescreen { z-index: 1; }
-  .z-id-0-widescreen { z-index: 0; }
-  .z-id--1-widescreen { z-index: -1; }
+  .z-id-auto-widescreen { z-index: auto !important; }
+  .z-id-1-widescreen { z-index: 1 !important; }
+  .z-id-0-widescreen { z-index: 0 !important; }
+  .z-id--1-widescreen { z-index: -1 !important; }
 };
