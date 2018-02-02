@@ -18,8 +18,13 @@ before_script:
 script: 
   - yarn build
 deploy:
-  provider: npm
-  email: ${EMAIL}
-  api_key: ${AUTH_TOKEN}
-  on:
-    branch: master
+  - provider: npm
+      email: ${EMAIL}
+      api_key: ${AUTH_TOKEN}
+      on:
+        branch: master
+  - provider: script
+      skip_cleanup: true
+      script: git push --tags
+      on:
+        branch: master
