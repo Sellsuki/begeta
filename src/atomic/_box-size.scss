@@ -1,15 +1,15 @@
-.w-auto { width: auto; }
-.h-auto { height: auto; }
-.m-w-auto { max-width: auto; }
+.w-auto { width: auto !important; }
+.h-auto { height: auto !important; }
+.m-w-auto { max-width: auto !important; }
 
 @for $i from 0 through 100 {
-  .w-#{$i}px { width: #{$i}px; }
-  .h-#{$i}px { height: #{$i}px; }
-  .m-w-#{$i}px { max-width: #{$i}px; }
+  .w-#{$i}px { width: #{$i}px !important; }
+  .h-#{$i}px { height: #{$i}px !important; }
+  .m-w-#{$i}px { max-width: #{$i}px !important; }
 
-  .w-#{$i}pct { width: #{$i+'%'}; }
-  .h-#{$i}pct { height: #{$i+'%'}; }
-  .m-w-#{$i}pct { max-width: #{$i+'%'}; }
+  .w-#{$i}pct { width: #{$i+'%'} !important; }
+  .h-#{$i}pct { height: #{$i+'%'} !important; }
+  .m-w-#{$i}pct { max-width: #{$i+'%'} !important; }
 };
 
 @include mobile {
