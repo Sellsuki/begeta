@@ -2,6 +2,7 @@
 <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/58043-200.png">
 </p>
 
+[![Build Status](https://travis-ci.org/Sellsuki/begeta.svg?branch=master)](https://travis-ci.org/Sellsuki/begeta)
 # Begeta Prototype
 - [Github Repository](https://github.com/Sellsuki/begeta)
 - [SCSS guide](http://sass-lang.com/guide)
