@@ -14,7 +14,7 @@ gulp.task('build', function() {
         extname: '.css'
       })
     )
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./css/'))
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions']}))
     .pipe(
@@ -25,5 +25,5 @@ gulp.task('build', function() {
         extname: '.css'
       })
     )
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./css/'))
 })
