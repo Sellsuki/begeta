@@ -3,12 +3,21 @@
 </p>
 
 [![Build Status](https://travis-ci.org/Sellsuki/begeta.svg?branch=master)](https://travis-ci.org/Sellsuki/begeta)
-# Begeta Prototype
+# Begeta
+
+## How to use
+```sh
+npm install --save begeta
+```
+```js
+import 'begeta/css/begeta.min.css'
+```
+
+## Guide
 - [Github Repository](https://github.com/Sellsuki/begeta)
 - [SCSS guide](http://sass-lang.com/guide)
 - [Standard guide](http://design.sellsuki.com/atomic/flexdirection/)
 - [Mobile first guide](https://zellwk.com/blog/how-to-write-mobile-first-css/)
-- [Inspiration](https://github.com/BioMaRu/biomatic)
 
 ## Syncing a fork to sellsuki/begeta
 ### Command line step
