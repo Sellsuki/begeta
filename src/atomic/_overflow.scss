@@ -1,53 +1,53 @@
 @each $key, $value in $overflow-value {
-  .ovf-#{$key} { overflow: #{$value}; }
-  .ovf-x-#{$key} { overflow-x: #{$value}; }
-  .ovf-y-#{$key} { overflow-y: #{$value}; }
+  .ovf-#{$key} { overflow: #{$value} !important; }
+  .ovf-x-#{$key} { overflow-x: #{$value} !important; }
+  .ovf-y-#{$key} { overflow-y: #{$value} !important; }
 };
 
 @include mobile {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-mobile { overflow: #{$value}; }
-    .ovf-x-#{$key}-mobile { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-mobile { overflow-y: #{$value}; }
+    .ovf-#{$key}-mobile { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-mobile { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-mobile { overflow-y: #{$value} !important; }
   };
 };
 
 @include tablet {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-tablet { overflow: #{$value}; }
-    .ovf-x-#{$key}-tablet { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-tablet { overflow-y: #{$value}; }
+    .ovf-#{$key}-tablet { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-tablet { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-tablet { overflow-y: #{$value} !important; }
   };
 };
 
 @include tablet-only {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-tablet-only { overflow: #{$value}; }
-    .ovf-x-#{$key}-tablet-only { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-tablet-only { overflow-y: #{$value}; }
+    .ovf-#{$key}-tablet-only { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-tablet-only { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-tablet-only { overflow-y: #{$value} !important; }
   };
 };
 
 @include desktop {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-desktop { overflow: #{$value}; }
-    .ovf-x-#{$key}-desktop { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-desktop { overflow-y: #{$value}; }
+    .ovf-#{$key}-desktop { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-desktop { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-desktop { overflow-y: #{$value} !important; }
   };
 };
 
 @include desktop-only {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-desktop-only { overflow: #{$value}; }
-    .ovf-x-#{$key}-desktop-only { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-desktop-only { overflow-y: #{$value}; }
+    .ovf-#{$key}-desktop-only { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-desktop-only { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-desktop-only { overflow-y: #{$value} !important; }
   };
 };
 
 @include widescreen {
   @each $key, $value in $overflow-value {
-    .ovf-#{$key}-widescreen { overflow: #{$value}; }
-    .ovf-x-#{$key}-widescreen { overflow-x: #{$value}; }
-    .ovf-y-#{$key}-widescreen { overflow-y: #{$value}; }
+    .ovf-#{$key}-widescreen { overflow: #{$value} !important; }
+    .ovf-x-#{$key}-widescreen { overflow-x: #{$value} !important; }
+    .ovf-y-#{$key}-widescreen { overflow-y: #{$value} !important; }
   };
 };

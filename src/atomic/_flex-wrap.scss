@@ -1,39 +1,39 @@
-.flx-w-nowrap { flex-wrap: nowrap; }
-.flx-w-wrap { flex-wrap: wrap; }
-.flx-w-wrap-reverse { flex-wrap: wrap-reverse; }
+.flx-w-nowrap { flex-wrap: nowrap !important; }
+.flx-w-wrap { flex-wrap: wrap !important; }
+.flx-w-wrap-reverse { flex-wrap: wrap-reverse !important; }
 
 @include mobile {
-  .flx-w-nowrap-mobile { flex-wrap: nowrap; }
-  .flx-w-wrap-mobile { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-mobile { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-mobile { flex-wrap: nowrap !important; }
+  .flx-w-wrap-mobile { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-mobile { flex-wrap: wrap-reverse !important; }
 };
 
 @include tablet {
-  .flx-w-nowrap-tablet { flex-wrap: nowrap; }
-  .flx-w-wrap-tablet { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-tablet { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-tablet { flex-wrap: nowrap !important; }
+  .flx-w-wrap-tablet { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-tablet { flex-wrap: wrap-reverse !important; }
 };
 
 @include tablet-only {
-  .flx-w-nowrap-tablet-only { flex-wrap: nowrap; }
-  .flx-w-wrap-tablet-only { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-tablet-only { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-tablet-only { flex-wrap: nowrap !important; }
+  .flx-w-wrap-tablet-only { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-tablet-only { flex-wrap: wrap-reverse !important; }
 };
 
 @include desktop {
-  .flx-w-nowrap-desktop { flex-wrap: nowrap; }
-  .flx-w-wrap-desktop { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-desktop { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-desktop { flex-wrap: nowrap !important; }
+  .flx-w-wrap-desktop { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-desktop { flex-wrap: wrap-reverse !important; }
 };
 
 @include desktop-only {
-  .flx-w-nowrap-desktop-only { flex-wrap: nowrap; }
-  .flx-w-wrap-desktop-only { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-desktop-only { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-desktop-only { flex-wrap: nowrap !important; }
+  .flx-w-wrap-desktop-only { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-desktop-only { flex-wrap: wrap-reverse !important; }
 };
 
 @include widescreen {
-  .flx-w-nowrap-widescreen { flex-wrap: nowrap; }
-  .flx-w-wrap-widescreen { flex-wrap: wrap; }
-  .flx-w-wrap-reverse-widescreen { flex-wrap: wrap-reverse; }
+  .flx-w-nowrap-widescreen { flex-wrap: nowrap !important; }
+  .flx-w-wrap-widescreen { flex-wrap: wrap !important; }
+  .flx-w-wrap-reverse-widescreen { flex-wrap: wrap-reverse !important; }
 };

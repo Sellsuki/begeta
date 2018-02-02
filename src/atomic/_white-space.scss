@@ -1,39 +1,39 @@
 @each $key, $value in $white-space-value {
-  .w-sp-#{$key} { white-space: #{$value}; }
+  .w-sp-#{$key} { white-space: #{$value} !important; }
 };
 
 @include mobile {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-mobile { white-space: #{$value}; }
+    .w-sp-#{$key}-mobile { white-space: #{$value} !important; }
   };
 };
 
 @include tablet {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-tablet { white-space: #{$value}; }
+    .w-sp-#{$key}-tablet { white-space: #{$value} !important; }
   };
 };
 
 @include tablet-only {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-tablet-only { white-space: #{$value}; }
+    .w-sp-#{$key}-tablet-only { white-space: #{$value} !important; }
   };
 };
 
 @include desktop {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-desktop { white-space: #{$value}; }
+    .w-sp-#{$key}-desktop { white-space: #{$value} !important; }
   };
 };
 
 @include desktop-only {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-desktop-only { white-space: #{$value}; }
+    .w-sp-#{$key}-desktop-only { white-space: #{$value} !important; }
   };
 };
 
 @include widescreen {
   @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-widescreen { white-space: #{$value}; }
+    .w-sp-#{$key}-widescreen { white-space: #{$value} !important; }
   };
 };
