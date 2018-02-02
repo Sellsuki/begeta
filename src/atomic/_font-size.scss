@@ -1,39 +1,39 @@
 @for $i from 8 through 75 {
-  .f-s-#{$i}px { font-size: #{$i}px; }
+  .f-s-#{$i}px { font-size: #{$i}px !important; }
 };
 
 @include mobile {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-mobile { font-size: #{$i}px; }
+    .f-s-#{$i}px-mobile { font-size: #{$i}px !important; }
   };
 };
 
 @include tablet {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-tablet { font-size: #{$i}px; }
+    .f-s-#{$i}px-tablet { font-size: #{$i}px !important; }
   };
 };
 
 @include tablet-only {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-tablet-only { font-size: #{$i}px; }
+    .f-s-#{$i}px-tablet-only { font-size: #{$i}px !important; }
   };
 };
 
 @include desktop {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-desktop { font-size: #{$i}px; }
+    .f-s-#{$i}px-desktop { font-size: #{$i}px !important; }
   };
 };
 
 @include desktop-only {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-desktop-only { font-size: #{$i}px; }
+    .f-s-#{$i}px-desktop-only { font-size: #{$i}px !important; }
   };
 };
 
 @include widescreen {
   @for $i from 8 through 75 {
-    .f-s-#{$i}px-widescreen { font-size: #{$i}px; }
+    .f-s-#{$i}px-widescreen { font-size: #{$i}px !important; }
   };
 };
