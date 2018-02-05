@@ -1,46 +1,46 @@
-.flx-drt-row { flex-direction: row !important; }
-.flx-drt-row-reverse { flex-direction: row-reverse !important; }
-.flx-drt-column { flex-direction: column !important; }
-.flx-drt-column-reverse { flex-direction: column-reverse !important; }
+.f-drt-row { flex-direction: row !important; }
+.f-drt-row-reverse { flex-direction: row-reverse !important; }
+.f-drt-column { flex-direction: column !important; }
+.f-drt-column-reverse { flex-direction: column-reverse !important; }
 
 @include mobile {
-  .flx-drt-row-mobile { flex-direction: row !important; }
-  .flx-drt-row-reverse-mobile { flex-direction: row-reverse !important; }
-  .flx-drt-column-mobile { flex-direction: column !important; }
-  .flx-drt-column-reverse-mobile { flex-direction: column-reverse !important; }
+  .f-drt-row-mobile { flex-direction: row !important; }
+  .f-drt-row-reverse-mobile { flex-direction: row-reverse !important; }
+  .f-drt-column-mobile { flex-direction: column !important; }
+  .f-drt-column-reverse-mobile { flex-direction: column-reverse !important; }
 };
 
 @include tablet {
-  .flx-drt-row-tablet { flex-direction: row !important; }
-  .flx-drt-row-reverse-tablet { flex-direction: row-reverse !important; }
-  .flx-drt-column-tablet { flex-direction: column !important; }
-  .flx-drt-column-reverse-tablet { flex-direction: column-reverse !important; }
+  .f-drt-row-tablet { flex-direction: row !important; }
+  .f-drt-row-reverse-tablet { flex-direction: row-reverse !important; }
+  .f-drt-column-tablet { flex-direction: column !important; }
+  .f-drt-column-reverse-tablet { flex-direction: column-reverse !important; }
 };
 
 @include tablet-only {
-  .flx-drt-row-tablet-only { flex-direction: row !important; }
-  .flx-drt-row-reverse-tablet-only { flex-direction: row-reverse !important; }
-  .flx-drt-column-tablet-only { flex-direction: column !important; }
-  .flx-drt-column-reverse-tablet-only { flex-direction: column-reverse !important; }
+  .f-drt-row-tablet-only { flex-direction: row !important; }
+  .f-drt-row-reverse-tablet-only { flex-direction: row-reverse !important; }
+  .f-drt-column-tablet-only { flex-direction: column !important; }
+  .f-drt-column-reverse-tablet-only { flex-direction: column-reverse !important; }
 };
 
 @include desktop {
-  .flx-drt-row-desktop { flex-direction: row !important; }
-  .flx-drt-row-reverse-desktop { flex-direction: row-reverse !important; }
-  .flx-drt-column-desktop { flex-direction: column !important; }
-  .flx-drt-column-reverse-desktop { flex-direction: column-reverse !important; }
+  .f-drt-row-desktop { flex-direction: row !important; }
+  .f-drt-row-reverse-desktop { flex-direction: row-reverse !important; }
+  .f-drt-column-desktop { flex-direction: column !important; }
+  .f-drt-column-reverse-desktop { flex-direction: column-reverse !important; }
 };
 
 @include desktop-only {
-  .flx-drt-row-desktop-only { flex-direction: row !important; }
-  .flx-drt-row-reverse-desktop-only { flex-direction: row-reverse !important; }
-  .flx-drt-column-desktop-only { flex-direction: column !important; }
-  .flx-drt-column-reverse-desktop-only { flex-direction: column-reverse !important; }
+  .f-drt-row-desktop-only { flex-direction: row !important; }
+  .f-drt-row-reverse-desktop-only { flex-direction: row-reverse !important; }
+  .f-drt-column-desktop-only { flex-direction: column !important; }
+  .f-drt-column-reverse-desktop-only { flex-direction: column-reverse !important; }
 };
 
 @include widescreen {
-  .flx-drt-row-widescreen { flex-direction: row !important; }
-  .flx-drt-row-reverse-widescreen { flex-direction: row-reverse !important; }
-  .flx-drt-column-widescreen { flex-direction: column !important; }
-  .flx-drt-column-reverse-widescreen { flex-direction: column-reverse !important; }
+  .f-drt-row-widescreen { flex-direction: row !important; }
+  .f-drt-row-reverse-widescreen { flex-direction: row-reverse !important; }
+  .f-drt-column-widescreen { flex-direction: column !important; }
+  .f-drt-column-reverse-widescreen { flex-direction: column-reverse !important; }
 };

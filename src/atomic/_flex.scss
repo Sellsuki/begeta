@@ -1,39 +1,39 @@
 @for $i from 1 through 9 {
-  .flx-#{$i} { flex: #{$i} !important; }
+  .f-#{$i} { flex: #{$i} !important; }
 };
 
 @include mobile {
   @for $i from 1 through 9 {
-    .flx-#{$i}-mobile { flex: #{$i} !important; }
+    .f-#{$i}-mobile { flex: #{$i} !important; }
   };
 };
 
 @include tablet {
   @for $i from 1 through 9 {
-    .flx-#{$i}-tablet { flex: #{$i} !important; }
+    .f-#{$i}-tablet { flex: #{$i} !important; }
   };
 };
 
 @include tablet-only {
   @for $i from 1 through 9 {
-    .flx-#{$i}-tablet-only { flex: #{$i} !important; }
+    .f-#{$i}-tablet-only { flex: #{$i} !important; }
   };
 };
 
 @include desktop {
   @for $i from 1 through 9 {
-    .flx-#{$i}-desktop { flex: #{$i} !important; }
+    .f-#{$i}-desktop { flex: #{$i} !important; }
   };
 };
 
 @include desktop-only {
   @for $i from 1 through 9 {
-    .flx-#{$i}-desktop-only { flex: #{$i} !important; }
+    .f-#{$i}-desktop-only { flex: #{$i} !important; }
   };
 };
 
 @include widescreen {
   @for $i from 1 through 9 {
-    .flx-#{$i}-widescreen { flex: #{$i} !important; }
+    .f-#{$i}-widescreen { flex: #{$i} !important; }
   };
 };
