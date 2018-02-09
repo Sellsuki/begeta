@@ -2,7 +2,12 @@
 <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/58043-200.png">
 </p>
 
-[![Build Status](https://travis-ci.org/Sellsuki/begeta.svg?branch=master)](https://travis-ci.org/Sellsuki/begeta)
+
+<p align="center">
+<a href="https://npmjs.com/package/begeta"><img src="https://img.shields.io/npm/v/begeta.svg?style=flat" alt="NPM version"></a>
+<a href="https://npmjs.com/package/begeta"><img src="https://img.shields.io/npm/dm/begeta.svg?style=flat" alt="NPM downloads"></a>
+<a href="https://travis-ci.org/Sellsuki/begeta"><img src="https://travis-ci.org/Sellsuki/begeta.svg?branch=master" alt="CircleCI"></a>
+</p>
 # Begeta
 
 ## How to use
@@ -11,6 +16,10 @@ npm install --save begeta
 ```
 ```js
 import 'begeta/css/begeta.min.css'
+```
+#### OR
+```html
+<link rel="stylesheet" type="text/css" href="node_modules/begeta/css/begeta.min.css">
 ```
 
 ## Guide
