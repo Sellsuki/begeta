@@ -13,6 +13,16 @@
   .h-#{$i}pct { height: #{$i+'%'} !important; }
   .m-w-#{$i}pct { max-width: #{$i+'%'} !important; }
   .m-h-#{$i}pct { max-height: #{$i+'%'} !important; }
+
+  .w-#{$i}vw { width: #{$i+'vw'} !important; }
+  .h-#{$i}vh { height: #{$i+'vh'} !important; }
+  .m-w-#{$i}vw { max-width: #{$i+'vw'} !important; }
+  .m-h-#{$i}vh { max-height: #{$i+'vh'} !important; }
+
+  .w-#{$i}calc { width: calc(100vw - #{$i+'px'}) !important; }
+  .h-#{$i}calc { height: calc(100vh - #{$i+'px'}) !important; }
+  .m-w-#{$i}calc { max-width: calc(100vw - #{$i+'px'}) !important; }
+  .m-h-#{$i}calc { max-height: calc(100vh - #{$i+'px'}) !important; }
 };
 
 @include mobile {
@@ -31,6 +41,16 @@
     .h-#{$i}pct-mobile { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-mobile { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-mobile { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-mobile { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-mobile { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-mobile { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-mobile { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-mobile { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-mobile { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-mobile { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-mobile { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };
 
@@ -50,6 +70,16 @@
     .h-#{$i}pct-tablet { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-tablet { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-tablet { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-tablet { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-tablet { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-tablet { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-tablet { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-tablet { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-tablet { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-tablet { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-tablet { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };
 
@@ -69,6 +99,16 @@
     .h-#{$i}pct-tablet-only { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-tablet-only { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-tablet-only { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-tablet-only { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-tablet-only { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-tablet-only { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-tablet-only { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-tablet-only { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-tablet-only { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-tablet-only { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-tablet-only { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };
 
@@ -88,6 +128,16 @@
     .h-#{$i}pct-desktop { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-desktop { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-desktop { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-desktop { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-desktop { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-desktop { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-desktop { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-desktop { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-desktop { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-desktop { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-desktop { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };
 
@@ -107,6 +157,16 @@
     .h-#{$i}pct-desktop-only { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-desktop-only { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-desktop-only { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-desktop-only { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-desktop-only { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-desktop-only { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-desktop-only { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-desktop-only { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-desktop-only { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-desktop-only { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-desktop-only { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };
 
@@ -126,5 +186,15 @@
     .h-#{$i}pct-widescreen { height: #{$i+'%'} !important; }
     .m-w-#{$i}pct-widescreen { max-width: #{$i+'%'} !important; }
     .m-h-#{$i}pct-widescreen { max-height: #{$i+'%'} !important; }
+
+    .w-#{$i}vw-widescreen { width: #{$i+'vw'} !important; }
+    .h-#{$i}vh-widescreen { height: #{$i+'vh'} !important; }
+    .m-w-#{$i}vw-widescreen { max-width: #{$i+'vw'} !important; }
+    .m-h-#{$i}vh-widescreen { max-height: #{$i+'vh'} !important; }
+
+    .w-#{$i}calc-widescreen { width: calc(100vw - #{$i+'px'}) !important; }
+    .h-#{$i}calc-widescreen { height: calc(100vh - #{$i+'px'}) !important; }
+    .m-w-#{$i}calc-widescreen { max-width: calc(100vw - #{$i+'px'}) !important; }
+    .m-h-#{$i}calc-widescreen { max-height: calc(100vh - #{$i+'px'}) !important; }
   };
 };

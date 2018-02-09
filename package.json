@@ -1,6 +1,6 @@
 {
   "name": "begeta",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Atomic css framework work with Bulma & Buefy",
   "directories": {
     "src": "src"
