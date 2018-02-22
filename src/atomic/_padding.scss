@@ -9,7 +9,7 @@
 @for $i from 0 through 100 {
   .pd-#{$i}px { padding: #{$i}px; }
   .pd-t-#{$i}px { padding-top: #{$i}px !important; }
-  .pd-bt-#{$i}px { padding-bottom: auto !important; }
+  .pd-bt-#{$i}px { padding-bottom: #{$i}px !important; }
   .pd-l-#{$i}px { padding-left: #{$i}px !important; }
   .pd-r-#{$i}px { padding-right: #{$i}px !important; }
   .pd-vtc-#{$i}px { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
@@ -68,7 +68,7 @@
   @for $i from 0 through 100 {
     .pd-#{$i}px-tablet-only { padding: #{$i}px; }
     .pd-t-#{$i}px-tablet-only { padding-top: #{$i}px !important; }
-    .pd-bt-#{$i}px-tablet-only { padding-left: #{$i}px !important; }
+    .pd-bt-#{$i}px-tablet-only { padding-bottom: #{$i}px !important; }
     .pd-l-#{$i}px-tablet-only { padding-left: #{$i}px !important; }
     .pd-r-#{$i}px-tablet-only { padding-right: #{$i}px !important; }
     .pd-vtc-#{$i}px-tablet-only { padding-top: #{$i}px !important; padding-bottom: #{$i}px !important; }
