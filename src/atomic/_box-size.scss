@@ -1,5 +1,7 @@
 .w-auto { width: auto !important; }
 .h-auto { height: auto !important; }
+.w-fit-content { width: fit-content !important; }
+.h-fit-content { height: fit-content !important; }
 .mn-w-auto { min-width: auto !important; }
 .mn-h-auto { min-height: auto !important; }
 .mx-w-auto { max-width: auto !important; }
@@ -40,6 +42,8 @@
 @include mobile {
   .w-auto-mobile { width: auto !important; }
   .h-auto-mobile { height: auto  !important; }
+  .w-fit-content-mobile { width: fit-content !important; }
+  .h-fit-content-mobile { height: fit-content !important; }
   .mn-w-auto-mobile { min-width: auto !important; }
   .mn-h-auto-mobile { min-height: auto !important; }
   .mx-w-auto-mobile { max-width: auto !important; }
@@ -81,6 +85,8 @@
 @include tablet {
   .w-auto-tablet { width: auto !important; }
   .h-auto-tablet { height: auto !important; }
+  .w-fit-content-tablet { width: fit-content !important; }
+  .h-fit-content-tablet { height: fit-content !important; }
   .mn-w-auto-tablet { min-width: auto !important; }
   .mn-h-auto-tablet { min-height: auto !important; }
   .mx-w-auto-tablet { max-width: auto !important; }
@@ -122,6 +128,8 @@
 @include tablet-only {
   .w-auto-tablet-only { width: auto !important; }
   .h-auto-tablet-only { height: auto !important; }
+  .w-fit-content-tablet-only { width: fit-content !important; }
+  .h-fit-content-tablet-only { height: fit-content !important; }
   .mn-w-auto-tablet-only { min-width: auto !important; }
   .mn-h-auto-tablet-only { min-height: auto !important; }
   .mx-w-auto-tablet-only { max-width: auto !important; }
@@ -161,6 +169,8 @@
 @include desktop {
   .w-auto-desktop { width: auto !important; }
   .h-auto-desktop { height: auto !important; }
+  .w-fit-content-desktop { width: fit-content !important; }
+  .h-fit-content-desktop { height: fit-content !important; }
   .mn-w-auto-desktop { min-width: auto !important; }
   .mn-h-auto-desktop { min-height: auto !important; }
   .mx-w-auto-desktop { max-width: auto !important; }
@@ -202,6 +212,8 @@
 @include desktop-only {
   .w-auto-desktop-only { width: auto !important; }
   .h-auto-desktop-only { height: auto !important; }
+  .w-fit-content-desktop-only { width: fit-content !important; }
+  .h-fit-content-desktop-only { height: fit-content !important; }
   .mn-w-auto-desktop-only { min-width: auto !important; }
   .mn-h-auto-desktop-only { min-height: auto !important; }
   .mx-w-auto-desktop-only { max-width: auto !important; }
@@ -243,6 +255,8 @@
 @include widescreen {
   .w-auto-widescreen { width: auto !important; }
   .h-auto-widescreen { height: auto !important; }
+  .w-fit-content-widescreen { width: fit-content !important; }
+  .h-fit-content-widescreen { height: fit-content !important; }
   .mn-w-auto-widescreen { min-width: auto !important; }
   .mn-h-auto-widescreen { min-height: auto !important; }
   .mx-w-auto-widescreen { max-width: auto !important; }
