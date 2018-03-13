@@ -1,38 +1,45 @@
+.f-none { flex: none !important; }
 @for $i from 1 through 9 {
   .f-#{$i} { flex: #{$i} !important; }
 };
 
 @include mobile {
+  .f-none-mobile { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-mobile { flex: #{$i} !important; }
   };
 };
 
 @include tablet {
+  .f-none-tablet { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-tablet { flex: #{$i} !important; }
   };
 };
 
 @include tablet-only {
+  .f-none-tablet-only { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-tablet-only { flex: #{$i} !important; }
   };
 };
 
 @include desktop {
+  .f-none-desktop { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-desktop { flex: #{$i} !important; }
   };
 };
 
 @include desktop-only {
+  .f-none-desktop-only { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-desktop-only { flex: #{$i} !important; }
   };
 };
 
 @include widescreen {
+  .f-none-widescreen { flex: none !important; }
   @for $i from 1 through 9 {
     .f-#{$i}-widescreen { flex: #{$i} !important; }
   };
