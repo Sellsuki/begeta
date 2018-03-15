@@ -1,2 +1,7 @@
 node_modules/
+src/
+package-lock.json
+yarn.lock
+Glupfile.js
+.travisd.yml
 .DS_Store
