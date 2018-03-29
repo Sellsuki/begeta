@@ -1,39 +1,81 @@
 @each $key, $value in $border-style-value {
   .bd-st-#{$key} { border-style: #{$value} !important; }
+  .bd-t-st-#{$key} { border-top-style: #{$value} !important; }
+  .bd-bt-st-#{$key} { border-bottom-style: #{$value} !important; }
+  .bd-l-st-#{$key} { border-left-style: #{$value} !important; }
+  .bd-r-st-#{$key} { border-right-style: #{$value} !important; }
+  .bd-vtc-st-#{$key} { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+  .bd-hrzt-st-#{$key} { border-left-style: #{$value}; border-right-style: #{$value} !important; }
 };
 
 @include mobile {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-mobile { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-mobile { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-mobile { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-mobile { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-mobile { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-mobile { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-mobile { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
 
 @include tablet {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-tablet { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-tablet { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-tablet { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-tablet { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-tablet { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-tablet { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-tablet { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
 
 @include tablet-only {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-tablet-only { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-tablet-only { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-tablet-only { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-tablet-only { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-tablet-only { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-tablet-only { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-tablet-only { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
 
 @include desktop {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-desktop { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-desktop { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-desktop { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-desktop { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-desktop { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-desktop { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-desktop { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
 
 @include desktop-only {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-desktop-only { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-desktop-only { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-desktop-only { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-desktop-only { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-desktop-only { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-desktop-only { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-desktop-only { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
 
 @include widescreen {
   @each $key, $value in $border-style-value {
     .bd-st-#{$key}-widescreen { border-style: #{$value} !important; }
+    .bd-t-st-#{$key}-widescreen { border-top-style: #{$value} !important; }
+    .bd-bt-st-#{$key}-widescreen { border-bottom-style: #{$value} !important; }
+    .bd-l-st-#{$key}-widescreen { border-left-style: #{$value} !important; }
+    .bd-r-st-#{$key}-widescreen { border-right-style: #{$value} !important; }
+    .bd-vtc-st-#{$key}-widescreen { border-top-style: #{$value}; border-bottom-style: #{$value} !important; }
+    .bd-hrzt-st-#{$key}-widescreen { border-left-style: #{$value}; border-right-style: #{$value} !important; }
   };
 };
