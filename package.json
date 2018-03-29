@@ -26,5 +26,8 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
