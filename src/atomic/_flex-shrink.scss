@@ -1,0 +1,39 @@
+@for $i from 0 through 10 {
+  .f-s-#{$i} { flex-shrink: #{$i} !important; }
+};
+
+@include mobile {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-mobile { flex-shrink: #{$i} !important; }
+  };
+};
+
+@include tablet {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-tablet { flex-shrink: #{$i} !important; }
+  };
+};
+
+@include tablet-only {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-tablet-only { flex-shrink: #{$i} !important; }
+  };
+};
+
+@include desktop {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-desktop { flex-shrink: #{$i} !important; }
+  };
+};
+
+@include desktop-only {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-desktop-only { flex-shrink: #{$i} !important; }
+  };
+};
+
+@include widescreen {
+  @for $i from 0 through 10 {
+    .f-s-#{$i}-widescreen { flex-shrink: #{$i} !important; }
+  };
+};

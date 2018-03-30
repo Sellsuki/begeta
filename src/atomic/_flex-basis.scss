@@ -1,0 +1,46 @@
+.f-bs-auto { flex-basis: auto !important; }
+@for $i from 0 through 300 {
+  .f-bs-#{$i} { flex-basis: #{$i}px !important; }
+};
+
+@include mobile {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-mobile { flex-basis: #{$i}px !important; }
+  };
+};
+
+@include tablet {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-tablet { flex-basis: #{$i}px !important; }
+  };
+};
+
+@include tablet-only {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-tablet-only { flex-basis: #{$i}px !important; }
+  };
+};
+
+@include desktop {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-desktop { flex-basis: #{$i}px !important; }
+  };
+};
+
+@include desktop-only {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-desktop-only { flex-basis: #{$i}px !important; }
+  };
+};
+
+@include widescreen {
+  .f-bs-auto { flex-basis: auto !important; }
+  @for $i from 0 through 300 {
+    .f-bs-#{$i}-widescreen { flex-basis: #{$i}px !important; }
+  };
+};
