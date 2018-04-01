@@ -5,30 +5,31 @@ You can store things like colors, font stacks, or any CSS value you think you'll
 Sass uses the $ symbol to make something a variable. */
 
 // http://sass-lang.com/guide : Topic Variables
-
 /* ============================
   Color Variable(follow by Bulma.io)
 ============================ */
-$color-black: hsl(0, 0%, 4%);
-$color-black-bis: hsl(0, 0%, 7%);
-$color-black-ter: hsl(0, 0%, 14%);
-$color-grey-darker: hsl(0, 0%, 21%);
-$color-grey-dark: hsl(0, 0%, 29%);
-$color-grey: hsl(0, 0%, 48%);
-$color-grey-light: hsl(0, 0%, 71%);
-$color-grey-lighter: hsl(0, 0%, 86%);
-$color-white-ter: hsl(0, 0%, 96%);
-$color-white-bis: hsl(0, 0%, 98%);
-$color-white: hsl(0, 0%, 100%);
-$color-orange: hsl(14, 100%, 53%);
-$color-yellow: hsl(48, 100%, 67%);
-$color-green: hsl(141, 71%, 48%);
-$color-turquoise: hsl(171, 100%, 41%);
-$color-cyan: hsl(204, 86%, 53%);
-$color-blue: hsl(217, 71%, 53%);
-$color-purple: hsl(271, 100%, 71%);
-$color-red: hsl(348, 100%, 61%);
+
+$color-black: #0a0a0a;
+$color-black-bis: #111111;
+$color-black-ter: #232323;
+$color-grey-darker: #353535;
+$color-grey-dark: #494949;
+$color-grey: #7a7a7a;
+$color-grey-light: #b5b5b5;
+$color-grey-lighter: #dbdbdb;
+$color-white-ter: #f4f4f4;
+$color-white-bis: #f9f9f9;
+$color-white: #ffffff;
+$color-orange: #ff470f;
+$color-yellow: #fedd56;
+$color-green: #23d160;
+$color-turquoise: #00d1b1;
+$color-cyan: #209bee;
+$color-blue: #3273dc;
+$color-purple: #b76bff;
+$color-red: #fe385f;
 /* TODO: Have to change */
+
 $color-primary: #1066FD;
 $color-info: #2B9EEC;
 $color-success: #32D065;
@@ -36,37 +37,9 @@ $color-warning: #FEDD62;
 $color-danger: #FC3C63;
 $color-light: #F5F5F5;
 $color-dark: #000000;
-
 /* TODO: Change color primary info success warning danger light dark */
-$color-value: (
-  'primary': $color-primary,
-  'info': $color-info,
-  'success': $color-success,
-  'warning': $color-warning,
-  'danger': $color-danger,
-  'light': $color-light,
-  'dark': $color-dark,
-  'black': $color-black,
-  'black-bis': $color-black-bis,
-  'black-ter': $color-black-ter,
-  'grey-darker': $color-grey-darker,
-  'grey-dark': $color-grey-dark,
-  'grey': $color-grey,
-  'grey-light': $color-grey-light,
-  'grey-lighter': $color-grey-lighter,
-  'white-ter': $color-white-ter,
-  'white-bis': $color-white-bis,
-  'white': $color-white,
-  'orange': $color-orange,
-  'yellow': $color-yellow,
-  'green': $color-green,
-  'turquoise': $color-turquoise,
-  'cyan': $color-cyan,
-  'blue': $color-blue,
-  'purple': $color-purple,
-  'red': $color-red
-);
 
+$color-value: ( 'primary': $color-primary, 'info': $color-info, 'success': $color-success, 'warning': $color-warning, 'danger': $color-danger, 'light': $color-light, 'dark': $color-dark, 'black': $color-black, 'black-bis': $color-black-bis, 'black-ter': $color-black-ter, 'grey-darker': $color-grey-darker, 'grey-dark': $color-grey-dark, 'grey': $color-grey, 'grey-light': $color-grey-light, 'grey-lighter': $color-grey-lighter, 'white-ter': $color-white-ter, 'white-bis': $color-white-bis, 'white': $color-white, 'orange': $color-orange, 'yellow': $color-yellow, 'green': $color-green, 'turquoise': $color-turquoise, 'cyan': $color-cyan, 'blue': $color-blue, 'purple': $color-purple, 'red': $color-red);
 /* ============================
   Color when hover Variable
 ============================ */
@@ -74,179 +47,67 @@ $color-value: (
 /* ============================
   Cursor Variable
 ============================ */
-$cursor-value: (
-  'all-scroll': all-scroll,
-  'crosshair': crosshair,
-  'default': default,
-  'text': text,
-  'help': help,
-  'move': move,
-  'not-allowed': not-allowed,
-  'none': none,
-  'pointer': pointer,
-  'progress': progress,
-  'zoom-in': zoom-in,
-  'zoom-out': zoom-out
-);
 
+$cursor-value: ( 'all-scroll': all-scroll, 'crosshair': crosshair, 'default': default, 'text': text, 'help': help, 'move': move, 'not-allowed': not-allowed, 'none': none, 'pointer': pointer, 'progress': progress, 'zoom-in': zoom-in, 'zoom-out': zoom-out);
 /* ============================
   Display Variable
 ============================ */
-$display-value: (
-  'block': block,
-  'inline': inline,
-  'inline-block': inline-block,
-  'inline-flex': inline-flex,
-  'flex': flex,
-  'grid': grid,
-  'table': table,
-  'none': none
-);
 
+$display-value: ( 'block': block, 'inline': inline, 'inline-block': inline-block, 'inline-flex': inline-flex, 'flex': flex, 'grid': grid, 'table': table, 'none': none);
 /* ============================
   Breakpoints Variable
 ============================ */
+
 $breakpoint-tablet: 769px !default;
 $breakpoint-desktop: 1024px !default;
 $breakpoint-widescreen: 1216px !default;
-
 /* ============================
   Justify && Align Items
 ============================ */
-$justify-align-items-value: (
-  'start': start,
-  'end': end,
-  'flex-start': flex-start,
-  'flex-end': flex-end,
-  'center': center,
-  'stretch': stretch
-);
 
+$justify-align-items-value: ( 'start': start, 'end': end, 'flex-start': flex-start, 'flex-end': flex-end, 'center': center, 'stretch': stretch);
 /* ============================
   Justify && Align Content
 ============================ */
-$justify-align-content-value: (
-  'start': start,
-  'end': end,
-  'left': left,
-  'right': right,
-  'flex-start': flex-start,
-  'flex-end': flex-end,
-  'center': center,
-  'stretch': stretch,
-  'space-between': space-between,
-  'space-around': space-around,
-  'space-evenly': space-evenly
-);
 
+$justify-align-content-value: ( 'start': start, 'end': end, 'left': left, 'right': right, 'flex-start': flex-start, 'flex-end': flex-end, 'center': center, 'stretch': stretch, 'space-between': space-between, 'space-around': space-around, 'space-evenly': space-evenly);
 /* ============================
   Justify && Align Self
 ============================ */
-$justify-align-self-value: (
-  'start': start,
-  'end': end,
-  'left': left,
-  'right': right,
-  'flex-start': flex-start,
-  'flex-end': flex-end,
-  'self-start': self-start,
-  'self-end': self-end,
-  'stretch': stretch
-);
 
+$justify-align-self-value: ( 'start': start, 'end': end, 'left': left, 'right': right, 'flex-start': flex-start, 'flex-end': flex-end, 'self-start': self-start, 'self-end': self-end, 'stretch': stretch);
 /* ============================
   border style
 ============================ */
-$border-style-value: (
-  'dotted': dotted,
-  'dashed': dashed,
-  'solid': solid,
-  'double': double,
-  'groove': groove,
-  'ridge': ridge,
-  'inset': inset,
-  'outset': outset,
-  'none': none,
-  'hidden': hidden,
-);
 
-
+$border-style-value: ( 'dotted': dotted, 'dashed': dashed, 'solid': solid, 'double': double, 'groove': groove, 'ridge': ridge, 'inset': inset, 'outset': outset, 'none': none, 'hidden': hidden, );
 /* ============================
   Border Width
 ============================ */
-$border-radius-width-value: (
-  '0px': 0px,
-  '1px': 1px,
-  '2px': 2px,
-  '3px': 3px,
-  '4px': 4px,
-  '5px': 5px,
-  '10px': 10px,
-  '15px': 15px,
-  '20px': 20px,
-  '25px': 25px,
-  '30px': 30px
-);
 
+$border-radius-width-value: ( '0px': 0px, '1px': 1px, '2px': 2px, '3px': 3px, '4px': 4px, '5px': 5px, '10px': 10px, '15px': 15px, '20px': 20px, '25px': 25px, '30px': 30px);
 /* ============================
   Background Repeat
 ============================ */
-$background-repeat-value: (
-  'repeat': repeat,
-  'repeat-x': repeat-x,
-  'repeat-y': repeat-y,
-  'no-repeat': no-repeat,
-  'space': space,
-  'round': round
-);
 
+$background-repeat-value: ( 'repeat': repeat, 'repeat-x': repeat-x, 'repeat-y': repeat-y, 'no-repeat': no-repeat, 'space': space, 'round': round);
 /* ============================
   Background Position
 ============================ */
-$background-position-value: (
-  'top': top,
-  'top-left': top left,
-  'top-right': top right,
-  'bottom': bottom,
-  'bottom-left': bottom left,
-  'bottom-right': bottom right,
-  'center': center,
-  'center-left': center left,
-  'center-right': center right 
-);
 
+$background-position-value: ( 'top': top, 'top-left': top left, 'top-right': top right, 'bottom': bottom, 'bottom-left': bottom left, 'bottom-right': bottom right, 'center': center, 'center-left': center left, 'center-right': center right);
 /* ============================
   White Space
 ============================ */
-$white-space-value: (
-  'normal': normal,
-  'nowrap': nowrap,
-  'pre': pre,
-  'pre-line': pre-line,
-  'pre-wrap': pre-wrap
-);
 
+$white-space-value: ( 'normal': normal, 'nowrap': nowrap, 'pre': pre, 'pre-line': pre-line, 'pre-wrap': pre-wrap);
 /* ============================
   Line Height
 ============================ */
-$line-height-value: (
-  '100pct': 100%,
-  '125pct': 125%,
-  '150pct': 150%,
-  '175pct': 175%,
-  '200pct': 200%,
-  '225pct': 225%,
-  '250pct': 250%,
-  '275pct': 275%,
-  '300pct': 300%
-);
 
+$line-height-value: ( '100pct': 100%, '125pct': 125%, '150pct': 150%, '175pct': 175%, '200pct': 200%, '225pct': 225%, '250pct': 250%, '275pct': 275%, '300pct': 300%);
 /* ============================
   Overflow
 ============================ */
-$overflow-value: (
-  'visible': visible,
-  'auto': auto,
-  'hidden': hidden,
-  'scroll': scroll
-);
+
+$overflow-value: ( 'visible': visible, 'auto': auto, 'hidden': hidden, 'scroll': scroll);
