@@ -1,10 +1,14 @@
 {
   "name": "begeta",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Atomic css framework work with Bulma & Buefy",
   "directories": {
     "src": "src"
   },
+  "main": "css/begeta.min.css",
+  "files": [
+    "css"
+  ],
   "scripts": {
     "build": "gulp build"
   },
