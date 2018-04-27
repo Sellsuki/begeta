@@ -10,6 +10,13 @@
   .r-#{$i}px { right: #{$i}px; }
 };
 
+@for $i from 0 through 100 {
+  .t-#{$i}pct { top: #{$i+'%'}; }
+  .bt-#{$i}pct { bottom: #{$i+'%'}; }
+  .l-#{$i}pct { left: #{$i+'%'}; }
+  .r-#{$i}pct { right: #{$i+'%'}; }
+};
+
 @include mobile {
   .pst-static-mobile { position: static !important; }
   .pst-relative-mobile { position: relative !important; }
@@ -21,6 +28,13 @@
     .bt-#{$i}px-mobile { bottom: #{$i}px; }
     .l-#{$i}px-mobile { left: #{$i}px; }
     .r-#{$i}px-mobile { right: #{$i}px; }
+  };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-mobile { top: #{$i+'%'}; }
+    .bt-#{$i}pct-mobile { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-mobile { left: #{$i+'%'}; }
+    .r-#{$i}pct-mobile { right: #{$i+'%'}; }
   };
 };
 
@@ -36,6 +50,13 @@
     .l-#{$i}px-tablet { left: #{$i}px; }
     .r-#{$i}px-tablet { right: #{$i}px; }
   };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-tablet { top: #{$i+'%'}; }
+    .bt-#{$i}pct-tablet { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-tablet { left: #{$i+'%'}; }
+    .r-#{$i}pct-tablet { right: #{$i+'%'}; }
+  };
 };
 
 @include tablet-only {
@@ -49,6 +70,13 @@
     .bt-#{$i}px-tablet-only { bottom: #{$i}px; }
     .l-#{$i}px-tablet-only { left: #{$i}px; }
     .r-#{$i}px-tablet-only { right: #{$i}px; }
+  };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-tablet-only { top: #{$i+'%'}; }
+    .bt-#{$i}pct-tablet-only { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-tablet-only { left: #{$i+'%'}; }
+    .r-#{$i}pct-tablet-only { right: #{$i+'%'}; }
   };
 };
 
@@ -64,6 +92,13 @@
     .l-#{$i}px-desktop { left: #{$i}px; }
     .r-#{$i}px-desktop { right: #{$i}px; }
   };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-desktop { top: #{$i+'%'}; }
+    .bt-#{$i}pct-desktop { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-desktop { left: #{$i+'%'}; }
+    .r-#{$i}pct-desktop { right: #{$i+'%'}; }
+  };
 };
 
 @include desktop-only {
@@ -78,6 +113,13 @@
     .l-#{$i}px-desktop-only { left: #{$i}px; }
     .r-#{$i}px-desktop-only { right: #{$i}px; }
   };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-desktop-only { top: #{$i+'%'}; }
+    .bt-#{$i}pct-desktop-only { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-desktop-only { left: #{$i+'%'}; }
+    .r-#{$i}pct-desktop-only { right: #{$i+'%'}; }
+  };
 };
 
 @include widescreen {
@@ -91,5 +133,12 @@
     .bt-#{$i}px-widescreen { bottom: #{$i}px; }
     .l-#{$i}px-widescreen { left: #{$i}px; }
     .r-#{$i}px-widescreen { right: #{$i}px; }
+  };
+
+  @for $i from 0 through 100 {
+    .t-#{$i}pct-widescreen { top: #{$i+'%'}; }
+    .bt-#{$i}pct-widescreen { bottom: #{$i+'%'}; }
+    .l-#{$i}pct-widescreen { left: #{$i+'%'}; }
+    .r-#{$i}pct-widescreen { right: #{$i+'%'}; }
   };
 };

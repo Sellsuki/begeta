@@ -5,6 +5,10 @@
   "directories": {
     "src": "src"
   },
+  "main": "css/begeta.min.css",
+  "files": [
+    "css"
+  ],
   "scripts": {
     "build": "gulp build"
   },
