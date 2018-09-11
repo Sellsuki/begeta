@@ -25,15 +25,3 @@
     .bg-pst-#{$key}-desktop { background-position: #{$value} !important; }
   };
 }
-
-@include desktop-only {
-  @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-desktop-only { background-position: #{$value} !important; }
-  };
-}
-
-@include widescreen {
-  @each $key, $value in $background-position-value {
-    .bg-pst-#{$key}-widescreen { background-position: #{$value} !important; }
-  };
-}

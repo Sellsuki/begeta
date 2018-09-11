@@ -30,17 +30,3 @@
   .t-tf-uppercase-desktop {text-transform: uppercase !important; }
   .t-tf-none-desktop {text-transform: none !important; }
 };
-
-@include desktop-only {
-  .t-tf-capitalize-desktop-only {text-transform: capitalize !important; }
-  .t-tf-lowercase-desktop-only {text-transform: lowercase !important; }
-  .t-tf-uppercase-desktop-only {text-transform: uppercase !important; }
-  .t-tf-none-desktop-only {text-transform: none !important; }
-};
-
-@include widescreen {
-  .t-tf-capitalize-widescreen {text-transform: capitalize !important; }
-  .t-tf-lowercase-widescreen {text-transform: lowercase !important; }
-  .t-tf-uppercase-widescreen {text-transform: uppercase !important; }
-  .t-tf-none-widescreen {text-transform: none !important; }
-};

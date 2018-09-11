@@ -30,17 +30,3 @@
   .f-drt-column-desktop { flex-direction: column !important; }
   .f-drt-column-reverse-desktop { flex-direction: column-reverse !important; }
 };
-
-@include desktop-only {
-  .f-drt-row-desktop-only { flex-direction: row !important; }
-  .f-drt-row-reverse-desktop-only { flex-direction: row-reverse !important; }
-  .f-drt-column-desktop-only { flex-direction: column !important; }
-  .f-drt-column-reverse-desktop-only { flex-direction: column-reverse !important; }
-};
-
-@include widescreen {
-  .f-drt-row-widescreen { flex-direction: row !important; }
-  .f-drt-row-reverse-widescreen { flex-direction: row-reverse !important; }
-  .f-drt-column-widescreen { flex-direction: column !important; }
-  .f-drt-column-reverse-widescreen { flex-direction: column-reverse !important; }
-};

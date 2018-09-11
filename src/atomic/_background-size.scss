@@ -20,13 +20,3 @@
   .bg-s-cover-desktop { background-size: cover !important; }
   .bg-s-contain-desktop { background-size: contain !important; }
 }
-
-@include desktop-only {
-  .bg-s-cover-desktop-only { background-size: cover !important; }
-  .bg-s-contain-desktop-only { background-size: contain !important; }
-}
-
-@include widescreen {
-  .bg-s-cover-widescreen { background-size: cover !important; }
-  .bg-s-contain-widescreen { background-size: contain !important; }
-}

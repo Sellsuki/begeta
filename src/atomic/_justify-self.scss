@@ -25,15 +25,3 @@
     .jtf-s-#{$key}-desktop { justify-self: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $justify-align-self-value {
-    .jtf-s-#{$key}-desktop-only { justify-self: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $justify-align-self-value {
-    .jtf-s-#{$key}-widescreen { justify-self: #{$value} !important; }
-  };
-};

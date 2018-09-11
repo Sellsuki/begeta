@@ -25,15 +25,3 @@
     .cl-#{$key}-desktop { color: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $color-value {
-    .cl-#{$key}-desktop-only { color: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $color-value {
-    .cl-#{$key}-widescreen { color: #{$value} !important; }
-  };
-};

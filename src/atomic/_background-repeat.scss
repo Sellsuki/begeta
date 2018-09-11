@@ -25,15 +25,3 @@
     .bg-rp-#{$key}-desktop { background-repeat: #{$value} !important; }
   }; 
 }
-
-@include desktop-only {
-  @each $key, $value in $background-repeat-value {
-    .bg-rp-#{$key}-desktop-only { background-repeat: #{$value} !important; }
-  }; 
-}
-
-@include widescreen {
-  @each $key, $value in $background-repeat-value {
-    .bg-rp-#{$key}-widescreen { background-repeat: #{$value} !important; }
-  };
-}

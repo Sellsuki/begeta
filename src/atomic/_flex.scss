@@ -30,17 +30,3 @@
     .f-#{$i}-desktop { flex: #{$i} !important; }
   };
 };
-
-@include desktop-only {
-  .f-none-desktop-only { flex: none !important; }
-  @for $i from 1 through 9 {
-    .f-#{$i}-desktop-only { flex: #{$i} !important; }
-  };
-};
-
-@include widescreen {
-  .f-none-widescreen { flex: none !important; }
-  @for $i from 1 through 9 {
-    .f-#{$i}-widescreen { flex: #{$i} !important; }
-  };
-};

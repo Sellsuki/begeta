@@ -25,15 +25,3 @@
     .l-h-#{$key}-desktop { line-height: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $line-height-value {
-    .l-h-#{$key}-desktop-only { line-height: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $line-height-value {
-    .l-h-#{$key}-widescreen { line-height: #{$value} !important; }
-  };
-};

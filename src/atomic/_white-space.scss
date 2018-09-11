@@ -25,15 +25,3 @@
     .w-sp-#{$key}-desktop { white-space: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-desktop-only { white-space: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $white-space-value {
-    .w-sp-#{$key}-widescreen { white-space: #{$value} !important; }
-  };
-};

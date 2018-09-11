@@ -25,15 +25,3 @@
   .f-w-wrap-desktop { flex-wrap: wrap !important; }
   .f-w-wrap-reverse-desktop { flex-wrap: wrap-reverse !important; }
 };
-
-@include desktop-only {
-  .f-w-nowrap-desktop-only { flex-wrap: nowrap !important; }
-  .f-w-wrap-desktop-only { flex-wrap: wrap !important; }
-  .f-w-wrap-reverse-desktop-only { flex-wrap: wrap-reverse !important; }
-};
-
-@include widescreen {
-  .f-w-nowrap-widescreen { flex-wrap: nowrap !important; }
-  .f-w-wrap-widescreen { flex-wrap: wrap !important; }
-  .f-w-wrap-reverse-widescreen { flex-wrap: wrap-reverse !important; }
-};

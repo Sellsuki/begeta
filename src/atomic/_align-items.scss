@@ -25,15 +25,3 @@
     .al-it-#{$key}-desktop { align-items: #{$value} !important; }
   };
 }
-
-@include desktop-only {
-  @each $key, $value in $justify-align-items-value {
-    .al-it-#{$key}-desktop-only { align-items: #{$value} !important; }
-  };
-}
-
-@include widescreen {
-  @each $key, $value in $justify-align-items-value {
-    .al-it-#{$key}-widescreen { align-items: #{$value} !important; }
-  };
-}

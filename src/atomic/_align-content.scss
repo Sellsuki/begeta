@@ -25,15 +25,3 @@
     .al-ct-#{$key}-desktop { align-content: #{$value} !important; }
   };  
 }
-
-@include desktop-only {
-  @each $key, $value in $justify-align-content-value {
-    .al-ct-#{$key}-desktop-only { align-content: #{$value} !important; }
-  };  
-}
-
-@include widescreen {
-  @each $key, $value in $justify-align-content-value {
-    .al-ct-#{$key}-widescreen { align-content: #{$value} !important; }
-  };  
-}

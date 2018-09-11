@@ -30,17 +30,3 @@
   .t-al-center-desktop { text-align: center !important; }
   .t-al-justify-desktop { text-align: justify !important; }
 };
-
-@include desktop-only {
-  .t-al-left-desktop-only { text-align: left !important; }
-  .t-al-right-desktop-only { text-align: right !important; }
-  .t-al-center-desktop-only { text-align: center !important; }
-  .t-al-justify-desktop-only { text-align: justify !important; }
-};
-
-@include widescreen {
-  .t-al-left-widescreen { text-align: left !important; }
-  .t-al-right-widescreen { text-align: right !important; }
-  .t-al-center-widescreen { text-align: center !important; }
-  .t-al-justify-widescreen { text-align: justify !important; }
-};

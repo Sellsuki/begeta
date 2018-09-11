@@ -25,15 +25,3 @@
     .cs-#{$key}-desktop { cursor: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $cursor-value {
-    .cs-#{$key}-desktop-only { cursor: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $cursor-value {
-    .cs-#{$key}-widescreen { cursor: #{$value} !important; }
-  };
-};

@@ -25,15 +25,3 @@
     .opct-#{$i * 10}-desktop  { opacity: #{$i / 10} !important; }
   };
 };
-
-@include desktop-only {
-  @for $i from 0 through 10 {
-    .opct-#{$i * 10}-desktop-only  { opacity: #{$i / 10} !important; }
-  };
-};
-
-@include widescreen {
-  @for $i from 0 through 10 {
-    .opct-#{$i * 10}-widescreen  { opacity: #{$i / 10} !important; }
-  };
-};

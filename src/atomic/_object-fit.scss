@@ -30,17 +30,3 @@
   .oj-f-fill-desktop { object-fit: fill !important; }
   .oj-f-none-desktop { object-fit: none !important; }
 };
-
-@include desktop-only {
-  .oj-f-cover-desktop-only { object-fit: cover !important; }
-  .oj-f-contain-desktop-only { object-fit: contain !important; }
-  .oj-f-fill-desktop-only { object-fit: fill !important; }
-  .oj-f-none-desktop-only { object-fit: none !important; }
-};
-
-@include widescreen {
-  .oj-f-cover-widescreen { object-fit: cover !important; }
-  .oj-f-contain-widescreen { object-fit: contain !important; }
-  .oj-f-fill-widescreen { object-fit: fill !important; }
-  .oj-f-none-widescreen { object-fit: none !important; }
-};

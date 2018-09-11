@@ -55,27 +55,3 @@
     .bd-hrzt-st-#{$key}-desktop { border-left-style: #{$value} !important; border-right-style: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $border-style-value {
-    .bd-st-#{$key}-desktop-only { border-style: #{$value} !important; }
-    .bd-t-st-#{$key}-desktop-only { border-top-style: #{$value} !important; }
-    .bd-bt-st-#{$key}-desktop-only { border-bottom-style: #{$value} !important; }
-    .bd-l-st-#{$key}-desktop-only { border-left-style: #{$value} !important; }
-    .bd-r-st-#{$key}-desktop-only { border-right-style: #{$value} !important; }
-    .bd-vtc-st-#{$key}-desktop-only { border-top-style: #{$value} !important; border-bottom-style: #{$value} !important; }
-    .bd-hrzt-st-#{$key}-desktop-only { border-left-style: #{$value} !important; border-right-style: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $border-style-value {
-    .bd-st-#{$key}-widescreen { border-style: #{$value} !important; }
-    .bd-t-st-#{$key}-widescreen { border-top-style: #{$value} !important; }
-    .bd-bt-st-#{$key}-widescreen { border-bottom-style: #{$value} !important; }
-    .bd-l-st-#{$key}-widescreen { border-left-style: #{$value} !important; }
-    .bd-r-st-#{$key}-widescreen { border-right-style: #{$value} !important; }
-    .bd-vtc-st-#{$key}-widescreen { border-top-style: #{$value} !important; border-bottom-style: #{$value} !important; }
-    .bd-hrzt-st-#{$key}-widescreen { border-left-style: #{$value} !important; border-right-style: #{$value} !important; }
-  };
-};

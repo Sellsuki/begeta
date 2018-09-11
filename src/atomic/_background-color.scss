@@ -25,15 +25,3 @@
     .bg-cl-#{$key}-desktop { background-color: #{$value} !important; }
   }; 
 }
-
-@include desktop-only {
-  @each $key, $value in $color-value {
-    .bg-cl-#{$key}-desktop-only { background-color: #{$value} !important; }
-  };
-}
-
-@include widescreen {
-  @each $key, $value in $color-value {
-    .bg-cl-#{$key}-widescreen { background-color: #{$value} !important; }
-  }; 
-}

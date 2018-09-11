@@ -25,15 +25,3 @@
     .f-g-#{$i}-desktop { flex-grow: #{$i} !important; }
   };
 };
-
-@include desktop-only {
-  @for $i from 0 through 10 {
-    .f-g-#{$i}-desktop-only { flex-grow: #{$i} !important; }
-  };
-};
-
-@include widescreen {
-  @for $i from 0 through 10 {
-    .f-g-#{$i}-widescreen { flex-grow: #{$i} !important; }
-  };
-};

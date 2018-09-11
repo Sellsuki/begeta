@@ -37,15 +37,3 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
     @content;
   }
 }
-
-@mixin desktop-only {
-  @media (min-width: $breakpoint-desktop) and (max-width: $breakpoint-widescreen - 1px) {
-    @content;
-  }
-}
-
-@mixin widescreen {
-  @media (min-width: $breakpoint-widescreen) {
-    @content;
-  }
-}

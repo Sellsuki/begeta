@@ -30,17 +30,3 @@
   .z-id-0-desktop { z-index: 0 !important; }
   .z-id--1-desktop { z-index: -1 !important; }
 };
-
-@include desktop-only {
-  .z-id-auto-desktop-only { z-index: auto !important; }
-  .z-id-1-desktop-only { z-index: 1 !important; }
-  .z-id-0-desktop-only { z-index: 0 !important; }
-  .z-id--1-desktop-only { z-index: -1 !important; }
-};
-
-@include widescreen {
-  .z-id-auto-widescreen { z-index: auto !important; }
-  .z-id-1-widescreen { z-index: 1 !important; }
-  .z-id-0-widescreen { z-index: 0 !important; }
-  .z-id--1-widescreen { z-index: -1 !important; }
-};

@@ -7,22 +7,6 @@
 .mx-w-auto { max-width: auto !important; }
 .mx-h-auto { max-height: auto !important; }
 
-@for $i from 0 through 300 {
-  .w-#{$i}px { width: #{$i}px !important; }
-  .h-#{$i}px { height: #{$i}px !important; }
-  .mn-w-#{$i}px { min-width: #{$i}px !important; }
-  .mn-h-#{$i}px { min-height: #{$i}px !important; }
-  .mx-w-#{$i}px { max-width: #{$i}px !important; }
-  .mx-h-#{$i}px { max-height: #{$i}px !important; }
-
-  .w-#{$i}calc { width: calc(100vw - #{$i+'px'}) !important; }
-  .h-#{$i}calc { height: calc(100vh - #{$i+'px'}) !important; }
-  .mn-w-#{$i}calc { min-width: calc(100vw - #{$i+'px'}) !important; }
-  .mn-h-#{$i}calc { min-height: calc(100vh - #{$i+'px'}) !important; }
-  .mx-w-#{$i}calc { max-width: calc(100vw - #{$i+'px'}) !important; }
-  .mx-h-#{$i}calc { max-height: calc(100vh - #{$i+'px'}) !important; }
-};
-
 @for $i from 0 through 100 {
   .w-#{$i}pct { width: #{$i+'%'} !important; }
   .h-#{$i}pct { height: #{$i+'%'} !important; }
@@ -48,22 +32,6 @@
   .mn-h-auto-mobile { min-height: auto !important; }
   .mx-w-auto-mobile { max-width: auto !important; }
   .mx-h-auto-mobile { max-height: auto !important; }
-
-  @for $i from 0 through 300 {
-    .w-#{$i}px-mobile { width: #{$i}px !important; }
-    .h-#{$i}px-mobile { height: #{$i}px !important; }
-    .mn-w-#{$i}px-mobile { min-width: #{$i}px !important; }
-    .mn-h-#{$i}px-mobile { min-height: #{$i}px !important; }
-    .mx-w-#{$i}px-mobile { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-mobile { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-mobile { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-mobile { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-mobile { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-mobile { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-mobile { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-mobile { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
 
   @for $i from 0 through 100 {
     .w-#{$i}pct-mobile { width: #{$i+'%'} !important; }
@@ -92,22 +60,6 @@
   .mx-w-auto-tablet { max-width: auto !important; }
   .mx-h-auto-tablet { max-height: auto !important; }
 
-  @for $i from 0 through 300 {
-    .w-#{$i}px-tablet { width: #{$i}px !important; }
-    .h-#{$i}px-tablet { height: #{$i}px !important; }
-    .mn-w-#{$i}px-tablet { min-width: #{$i}px !important; }
-    .mn-h-#{$i}px-tablet { min-height: #{$i}px !important; }
-    .mx-w-#{$i}px-tablet { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-tablet { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-tablet { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-tablet { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-tablet { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-tablet { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-tablet { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-tablet { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
-
   @for $i from 0 through 100 {
     .w-#{$i}pct-tablet { width: #{$i+'%'} !important; }
     .h-#{$i}pct-tablet { height: #{$i+'%'} !important; }
@@ -134,20 +86,6 @@
   .mn-h-auto-tablet-only { min-height: auto !important; }
   .mx-w-auto-tablet-only { max-width: auto !important; }
   .mx-h-auto-tablet-only { max-height: auto !important; }
-
-  @for $i from 0 through 300 {
-    .w-#{$i}px-tablet-only { width: #{$i}px !important; }
-    .h-#{$i}px-tablet-only { height: #{$i}px !important; }
-    .mx-w-#{$i}px-tablet-only { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-tablet-only { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-tablet-only { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-tablet-only { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-tablet-only { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-tablet-only { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-tablet-only { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-tablet-only { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
 
   @for $i from 0 through 100 {
     .w-#{$i}pct-tablet-only { width: #{$i+'%'} !important; }
@@ -176,22 +114,6 @@
   .mx-w-auto-desktop { max-width: auto !important; }
   .mx-h-auto-desktop { max-height: auto !important; }
 
-  @for $i from 0 through 300 {
-    .w-#{$i}px-desktop { width: #{$i}px !important; }
-    .h-#{$i}px-desktop { height: #{$i}px !important; }
-    .mn-w-#{$i}px-desktop { min-width: #{$i}px !important; }
-    .mn-h-#{$i}px-desktop { min-height: #{$i}px !important; }
-    .mx-w-#{$i}px-desktop { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-desktop { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-desktop { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-desktop { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-desktop { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-desktop { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-desktop { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-desktop { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
-
   @for $i from 0 through 100 {
     .w-#{$i}pct-desktop { width: #{$i+'%'} !important; }
     .h-#{$i}pct-desktop { height: #{$i+'%'} !important; }
@@ -206,91 +128,5 @@
     .mn-h-#{$i}vh-desktop { min-height: #{$i+'vh'} !important; }
     .mx-w-#{$i}vw-desktop { max-width: #{$i+'vw'} !important; }
     .mx-h-#{$i}vh-desktop { max-height: #{$i+'vh'} !important; }
-  };
-};
-
-@include desktop-only {
-  .w-auto-desktop-only { width: auto !important; }
-  .h-auto-desktop-only { height: auto !important; }
-  .w-fit-content-desktop-only { width: fit-content !important; }
-  .h-fit-content-desktop-only { height: fit-content !important; }
-  .mn-w-auto-desktop-only { min-width: auto !important; }
-  .mn-h-auto-desktop-only { min-height: auto !important; }
-  .mx-w-auto-desktop-only { max-width: auto !important; }
-  .mx-h-auto-desktop-only { max-height: auto !important; }
-
-  @for $i from 0 through 300 {
-    .w-#{$i}px-desktop-only { width: #{$i}px !important; }
-    .h-#{$i}px-desktop-only { height: #{$i}px !important; }
-    .mn-w-#{$i}px-desktop-only { min-width: #{$i}px !important; }
-    .mn-h-#{$i}px-desktop-only { min-height: #{$i}px !important; }
-    .mx-w-#{$i}px-desktop-only { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-desktop-only { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-desktop-only { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-desktop-only { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-desktop-only { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-desktop-only { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-desktop-only { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-desktop-only { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
-
-  @for $i from 0 through 100 {
-    .w-#{$i}pct-desktop-only { width: #{$i+'%'} !important; }
-    .h-#{$i}pct-desktop-only { height: #{$i+'%'} !important; }
-    .mn-w-#{$i}pct-desktop-only { min-width: #{$i+'%'} !important; }
-    .mn-h-#{$i}pct-desktop-only { min-height: #{$i+'%'} !important; }
-    .mx-w-#{$i}pct-desktop-only { max-width: #{$i+'%'} !important; }
-    .mx-h-#{$i}pct-desktop-only { max-height: #{$i+'%'} !important; }
-
-    .w-#{$i}vw-desktop-only { width: #{$i+'vw'} !important; }
-    .h-#{$i}vh-desktop-only { height: #{$i+'vh'} !important; }
-    .mn-w-#{$i}vw-desktop-only { min-width: #{$i+'vw'} !important; }
-    .mn-h-#{$i}vh-desktop-only { min-height: #{$i+'vh'} !important; }
-    .mx-w-#{$i}vw-desktop-only { max-width: #{$i+'vw'} !important; }
-    .mx-h-#{$i}vh-desktop-only { max-height: #{$i+'vh'} !important; }
-  };
-};
-
-@include widescreen {
-  .w-auto-widescreen { width: auto !important; }
-  .h-auto-widescreen { height: auto !important; }
-  .w-fit-content-widescreen { width: fit-content !important; }
-  .h-fit-content-widescreen { height: fit-content !important; }
-  .mn-w-auto-widescreen { min-width: auto !important; }
-  .mn-h-auto-widescreen { min-height: auto !important; }
-  .mx-w-auto-widescreen { max-width: auto !important; }
-  .mx-h-auto-widescreen { max-height: auto !important; }
-
-  @for $i from 0 through 300 {
-    .w-#{$i}px-widescreen { width: #{$i}px !important; }
-    .h-#{$i}px-widescreen { height: #{$i}px !important; }
-    .mn-w-#{$i}px-widescreen { min-width: #{$i}px !important; }
-    .mn-h-#{$i}px-widescreen { min-height: #{$i}px !important; }
-    .mx-w-#{$i}px-widescreen { max-width: #{$i}px !important; }
-    .mx-h-#{$i}px-widescreen { max-height: #{$i}px !important; }
-
-    .w-#{$i}calc-widescreen { width: calc(100vw - #{$i+'px'}) !important; }
-    .h-#{$i}calc-widescreen { height: calc(100vh - #{$i+'px'}) !important; }
-    .mn-w-#{$i}calc-widescreen { min-width: calc(100vw - #{$i+'px'}) !important; }
-    .mn-h-#{$i}calc-widescreen { min-height: calc(100vh - #{$i+'px'}) !important; }
-    .mx-w-#{$i}calc-widescreen { max-width: calc(100vw - #{$i+'px'}) !important; }
-    .mx-h-#{$i}calc-widescreen { max-height: calc(100vh - #{$i+'px'}) !important; }
-  };
-
-  @for $i from 0 through 100 {
-    .w-#{$i}pct-widescreen { width: #{$i+'%'} !important; }
-    .h-#{$i}pct-widescreen { height: #{$i+'%'} !important; }
-    .mn-w-#{$i}pct-widescreen { min-width: #{$i+'%'} !important; }
-    .mn-h-#{$i}pct-widescreen { min-height: #{$i+'%'} !important; }
-    .mx-w-#{$i}pct-widescreen { max-width: #{$i+'%'} !important; }
-    .mx-h-#{$i}pct-widescreen { max-height: #{$i+'%'} !important; }
-
-    .w-#{$i}vw-widescreen { width: #{$i+'vw'} !important; }
-    .h-#{$i}vh-widescreen { height: #{$i+'vh'} !important; }
-    .mn-w-#{$i}vw-widescreen { min-width: #{$i+'vw'} !important; }
-    .mn-h-#{$i}vh-widescreen { min-height: #{$i+'vh'} !important; }
-    .mx-w-#{$i}vw-widescreen { max-width: #{$i+'vw'} !important; }
-    .mx-h-#{$i}vh-widescreen { max-height: #{$i+'vh'} !important; }
   };
 };

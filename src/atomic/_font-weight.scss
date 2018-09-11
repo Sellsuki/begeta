@@ -40,21 +40,3 @@
   .f-w-bold-desktop { font-weight: 900 !important; }
   .f-w-normal-desktop { font-weight: 100 !important; }
 };
-
-@include desktop-only {
-  @for $i from 1 through 9 {
-    .f-w-#{$i*100}-desktop-only { font-weight: #{$i*100} !important; }
-  };
-  
-  .f-w-bold-desktop-only { font-weight: 900 !important; }
-  .f-w-normal-desktop-only { font-weight: 100 !important; }
-};
-
-@include widescreen {
-  @for $i from 1 through 9 {
-    .f-w-#{$i*100}-widescreen { font-weight: #{$i*100} !important; }
-  };
-  
-  .f-w-bold-widescreen { font-weight: 900 !important; }
-  .f-w-normal-widescreen { font-weight: 100 !important; }
-};

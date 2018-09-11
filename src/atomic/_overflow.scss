@@ -35,19 +35,3 @@
     .ovf-y-#{$key}-desktop { overflow-y: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $overflow-value {
-    .ovf-#{$key}-desktop-only { overflow: #{$value} !important; }
-    .ovf-x-#{$key}-desktop-only { overflow-x: #{$value} !important; }
-    .ovf-y-#{$key}-desktop-only { overflow-y: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $overflow-value {
-    .ovf-#{$key}-widescreen { overflow: #{$value} !important; }
-    .ovf-x-#{$key}-widescreen { overflow-x: #{$value} !important; }
-    .ovf-y-#{$key}-widescreen { overflow-y: #{$value} !important; }
-  };
-};

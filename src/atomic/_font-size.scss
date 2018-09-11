@@ -25,15 +25,3 @@
     .f-s-#{$i}px-desktop { font-size: #{$i}px !important; }
   };
 };
-
-@include desktop-only {
-  @for $i from 8 through 75 {
-    .f-s-#{$i}px-desktop-only { font-size: #{$i}px !important; }
-  };
-};
-
-@include widescreen {
-  @for $i from 8 through 75 {
-    .f-s-#{$i}px-widescreen { font-size: #{$i}px !important; }
-  };
-};

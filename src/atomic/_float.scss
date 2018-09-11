@@ -25,15 +25,3 @@
   .f-right-desktop { float: right !important; }
   .f-none-desktop { float: none !important; }
 };
-
-@include desktop-only {
-  .f-left-desktop-only { float: left !important; }
-  .f-right-desktop-only { float: right !important; }
-  .f-none-desktop-only { float: none !important; }
-};
-
-@include widescreen {
-  .f-left-widescreen { float: left !important; }
-  .f-right-widescreen { float: right !important; }
-  .f-none-widescreen { float: none !important; }
-};

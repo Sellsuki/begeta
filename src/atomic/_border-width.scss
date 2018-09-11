@@ -56,27 +56,3 @@
     .bd-hrzt-w-#{$key}-desktop { border-left-width: #{$value} !important; border-right-width: #{$value} !important; }
   };
 };
-
-@include desktop-only {
-  @each $key, $value in $border-radius-width-value {
-    .bd-w-#{$key}-desktop-only { border-width: #{$value} !important; }
-    .bd-t-w-#{$key}-desktop-only { border-top-width: #{$value} !important; }
-    .bd-bt-w-#{$key}-desktop-only { border-bottom-width: #{$value} !important; }
-    .bd-l-w-#{$key}-desktop-only { border-left-width: #{$value} !important; }
-    .bd-r-w-#{$key}-desktop-only { border-right-width: #{$value} !important; }
-    .bd-vtc-w-#{$key}-desktop-only { border-top-width: #{$value} !important; border-bottom-width: #{$value} !important; }
-    .bd-hrzt-w-#{$key}-desktop-only { border-left-width: #{$value} !important; border-right-width: #{$value} !important; }
-  };
-};
-
-@include widescreen {
-  @each $key, $value in $border-radius-width-value {
-    .bd-w-#{$key}-widescreen { border-width: #{$value} !important; }
-    .bd-t-w-#{$key}-widescreen { border-top-width: #{$value} !important; }
-    .bd-bt-w-#{$key}-widescreen { border-bottom-width: #{$value} !important; }
-    .bd-l-w-#{$key}-widescreen { border-left-width: #{$value} !important; }
-    .bd-r-w-#{$key}-widescreen { border-right-width: #{$value} !important; }
-    .bd-vtc-w-#{$key}-widescreen { border-top-width: #{$value} !important; border-bottom-width: #{$value} !important; }
-    .bd-hrzt-w-#{$key}-widescreen { border-left-width: #{$value} !important; border-right-width: #{$value} !important; }
-  };
-};
